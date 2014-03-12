@@ -13,7 +13,7 @@
 ###########################################################################################
 
 # Enter your license key
-_license_key:
+_license_key: a5a96d24-d4a6-4d5b-9dc9-8917acc9d9e5
 
 _language: en
 
@@ -21,13 +21,13 @@ _language: en
 _site_root: /
 
 # Name of your site
-_site_name: Another Awesome Statamic Site
+_site_name: Jeff Byrnes & Leah Burrows’ Wedding
 
 # Change the folder name for your content directory
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://statamic.com
+_site_url: http://jeffandleahswedding.com
 
 # Folder name of your desired theme
 _theme: acadia
@@ -50,7 +50,7 @@ _taxonomy:
   - tags
 
 # Turns your slugs into pretty urls (spaces become "-" instead of %20)
-_taxonomy_slugify: false
+_taxonomy_slugify: true
 
 # Make taxonomy values case sensitive (when true, "example" would *not* match "Example")
 _taxonomy_case_sensitive: false
@@ -70,7 +70,7 @@ _content_type: markdown
 _enable_smartypants: true
 
 # set to 'true' to enable theme caching busting based on last modified timestamps
-_theme_cache_bust: false
+_theme_cache_bust: true
 
 # Specify where to save transformed images
 _transform_destination: false
@@ -111,6 +111,7 @@ _environments:
     - 'http://localhost*'
     - '*.dev'
     - '*.localip'
+    - 'local.*'
   live:
     - '*.com'
 
@@ -143,7 +144,7 @@ _log_file_prefix: site
 ###########################################################################################
 
 # Enable control panel (make sure you your config/system folders aren't web accessible)
-_admin_enabled: true
+_admin_enabled: false
 
 # Change the folder name for your admin directory.
 # You can also rename your admin.php file anything you want
