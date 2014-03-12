@@ -1,0 +1,18 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+/shared
+/node_modules
+/public/css
+/public/js
+
+.tags*
