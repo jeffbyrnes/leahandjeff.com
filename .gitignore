@@ -14,5 +14,5 @@
 /node_modules
 /public/css
 /public/js
-
+/bower_components
 .tags*
