@@ -1,5 +1,5 @@
 {
-  "name": "jeffandleahswedding.com",
+  "name": "leahandjeff.com",
   "version": "1.0.0",
   "authors": [
     "Jeff Byrnes <thejeffbyrnes@gmail.com>"
@@ -7,7 +7,7 @@
   "description": "Wedding website for Jeff Byrnes and Leah Burrows",
   "main": "index.html",
   "license": "None",
-  "homepage": "http://jeffandleahswedding.com/",
+  "homepage": "http://leahandjeff.com/",
   "private": true,
   "ignore": [
     "**/.*",
