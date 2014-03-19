@@ -1,0 +1,18 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jeff Byrnes -- @thejeffbyrnes
+    Gareth Redfern -- @garethredfern
+
+# THANKS
+
+    Everyone who uses this template!
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, jQuery
+
+    Source: https://github.com/statamicthemes/statarkers-theme

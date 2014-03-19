@@ -30,7 +30,7 @@ _content_root: _content
 _site_url: http://leahandjeff.com
 
 # Folder name of your desired theme
-_theme: acadia
+_theme: leahandjeff
 
 # Entries should include timestamp YYYY-MM-DD-HHII
 _entry_timestamps: false

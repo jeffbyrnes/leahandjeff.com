@@ -16,3 +16,4 @@
 /public/js
 /bower_components
 .tags*
+/public/assets/img/cache/

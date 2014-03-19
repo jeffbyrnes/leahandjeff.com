@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "momentjs": "~2.5.1"
+    "momentjs": "~2.5.1",
+    "normalize-scss": "~3.0.0"
   }
 }

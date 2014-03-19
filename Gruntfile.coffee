@@ -21,12 +21,19 @@ module.exports = (grunt) ->
     # Lint Coffee using CoffeeLint
     coffeelint:
       options:
-        'max_line_length':
-          'level': 'ignore'
+        "max_line_length":
+          "level": "ignore"
       gruntfile: ["Gruntfile.coffee"]
 
     # Compile Sass into CSS
     compass:
+      options:
+        importPath: [
+          "bower_components",
+          "bower_components/normalize-scss",
+          "public/_themes/leahandjeff/sass"
+        ]
+
       prod:
         options:
           environment: "production"

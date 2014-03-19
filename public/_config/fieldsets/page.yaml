@@ -1,17 +1,23 @@
 title: Standard Page
+include: meta                  # include the meta fields
 
 fields:
-  _template:
-    display: Template
-    type: templates
+  title:
+    instructions: "Enter the main page title here."
 
-  upload:
-    type: file
-    destination: assets/img/blog/
+  main_section:
+    type: section
+    display: Main Content
+    instructions: "Enter your main page content here."
+
+  _template:
+    type: hidden
+    default: page
 
   content:
-    display: Page Content
-    required: false
-    default:
+    display: Page Main Content
     type: markitup
-
+    instructions:
+      below: "Add the main page content here."
+    
+# This is the standard page fieldset it pulls in the meta fields and sets the template to always use the page template.
