@@ -1,13 +1,40 @@
 ---
-_fieldset: page
-title: About
-meta_title: SEO Title Used By Google
-meta_desc: "This is the page description which displays in Google's search results, it is important for SEO."
-alt_title: About Statarkers Theme
-_template: page
+_fieldset: page-2col
+title: About Us
+page_title: ""
+meta_description: About meta description
+col2: |
+### Column Two Header
+			
+<blockquote>
+	<p>&#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ante arcu, quis auctor sapien. Morbi magna leo, dapibus a pulvinar et, pharetra scelerisque felis. Mauris massa magna, gravida vitae convallis sagittis, sagittis ac ipsum. Integer arcu justo, vehicula vel accumsan ac, venenatis in massa. Curabitur in dui in urna interdum ullamcorper. Pellentesque ut imperdiet libero.&#8221;
+	<cite>Carrie Brownstein</cite></p>
+</blockquote>
+
+#### Column Two Subheader
+<ul>
+	<li>Lorem ipsum dolor sit amet consectetur adipiscing elit</li>
+	<li>Vestibulum venenatis velit dignissim arcu mattis rutrum lorem ipsum dolor sit amet consectetur adipiscing elit</li>
+	<li>Nunc vel urna non odio aliquet posuere sit amet ac felis</li>
+	<li>Sed pretium risus at diam dictum ullamcorper</li>
+	<li>Praesent dictum lectus quis interdum luctus</li>
+	<li>Duis semper augue eu justo sodales, sit amet dictum metus placerat</li>
+	<li>Suspendisse ac quam nec nibh pulvinar gravida eget sit amet leo</li>
+	<li>Mauris aliquet mauris quis sapien egestas, ac iaculis dolor pellentesque</li>
+	<li>Ut varius dui aliquet tellus ultrices sodales nunc vel urna non odio aliquet posuere sit amet ac felis</li>
+</ul>
+color_body_bg: color_1
+color_footer_bg: color_2
+_template: page-2col
 ---
-Born from the idea of a blank canvas for starting your Statamic sites, this theme is loosely based on the popular [Starkers](http://viewportindustries.com/products/starkers/) theme for Wordpress. The idea being that you load this theme into your Statamic themes folder, add the dummy content, get designing and building your Statamic sites in even less time than you were already.
+### Column One Header
 
-You can use Statarkers in any way you wish, please feel free to fork it on github. As the theme is offered for free, it's also offered with limited support. If you find a bug, please let me know and I'll fix it as soon as possible. Any improvements and feature requests can be asked through github.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis massa vel interdum faucibus. Praesent elementum arcu nec est lacinia tincidunt. Fusce feugiat magna purus. Fusce diam metus, tincidunt eu velit eu, lacinia egestas lorem. Proin vehicula condimentum metus at luctus. Nunc eleifend gravida velit sit amet pharetra. Sed id justo a diam consequat dapibus eget nec magna. Suspendisse in lorem eget arcu tincidunt pharetra non eleifend felis. Sed consectetur dignissim mi non blandit.
 
-Happy Statamic Themeing!
+#### Column One Subheader
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis massa vel interdum faucibus. Praesent elementum arcu nec est lacinia tincidunt. Fusce feugiat magna purus. Fusce diam metus, tincidunt eu velit eu, lacinia egestas lorem. Proin vehicula condimentum metus at luctus. Nunc eleifend gravida velit sit amet pharetra. Sed id justo a diam consequat dapibus eget nec magna. Suspendisse in lorem eget arcu tincidunt pharetra non eleifend felis. Sed consectetur dignissim mi non blandit.
+
+#### Column One Subheader
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis massa vel interdum faucibus. Praesent elementum arcu nec est lacinia tincidunt. Fusce feugiat magna purus. Fusce diam metus, tincidunt eu velit eu, lacinia egestas lorem. Proin vehicula condimentum metus at luctus. Nunc eleifend gravida velit sit amet pharetra. Sed id justo a diam consequat dapibus eget nec magna. Suspendisse in lorem eget arcu tincidunt pharetra non eleifend felis. Sed consectetur dignissim mi non blandit.

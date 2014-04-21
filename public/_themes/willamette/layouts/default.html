@@ -1,0 +1,57 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>{{ if segment_1 == "blog" && segment_2 != "archive" && segment_2 != "categories" && segment_2 }}{{ if page_title }}{{ page_title }}{{ else }}{{ title }}{{ endif }} &mdash; {{ get_content from="/settings" }}{{ copy_site_title }}{{ /get_content }}{{ else }}{{ get_content from="/settings" }}{{ copy_site_title }}{{ /get_content }} &mdash; {{ if page_title }}{{ page_title }}{{ elseif segment_2 == "categories" }}{{ else }}{{ title }}{{ endif }}{{ if get:page > 0 }} Page {{ get:page }}{{ endif }}{{ if taxonomy_slug }}{{ get_content from="/{ segment_1 }" }}{{ copy_blog_categories_title }}{{ /get_content }} {{ taxonomy_slug|deslugify|title }}{{ endif }}{{ endif }}</title>
+
+<meta name="description" content="{{ if taxonomy_slug }}{{ get_content from="/{ segment_1 }" }}{{ copy_blog_categories_title }}{{ /get_content }} {{ taxonomy_slug|deslugify|title }}{{ else }}{{ meta_description }}{{ if get:page > 0 }}, page {{ get:page }}{{ endif }}{{ endif }}">
+
+<link href="/_themes/willamette/css/willamette_{{ get_content from="/settings" }}{{ type_theme }}{{ /get_content }}_{{ get_content from="/settings" }}{{ color_theme }}{{ /get_content }}.css" rel="stylesheet" id="theme">
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+<script src="{{ _site_root }}{{ theme_path }}bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+
+<header>
+	<div class="row">
+		<div class="small-12 medium-12 large-12 columns">
+			<h2><a href="/">{{ get_content from="/settings" }}{{ copy_logo }}{{ /get_content }}</a></h2>
+			<!--
+			<div class="logo">
+				<a href="/"><img src="/assets/img/logo.png" alt="Logo" /></a>
+			</div>
+			-->
+		</div>
+	</div>
+</header>
+
+{{ theme:partial src="_nav" }}
+
+{{ layout_content }}
+
+<footer class="{{ if color_footer_bg == "color_1" }} section-bg-color1 {{ else }} section-bg-color2 {{ endif }}">
+	<div class="row">
+		<div class="small-12 medium-12 large-12 columns">
+			<ul class="footer-links">
+				{{ get_content from="/settings" }}{{ footer_html }}{{ /get_content }}
+			</ul>
+			
+			<div class="social-icons">
+				{{ get_content from="/settings" }}{{ social_icons }}{{ /get_content }}
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="{{ _site_root }}{{ theme_path }}bower_components/jquery/jquery.min.js"></script>
+<script src="{{ _site_root }}{{ theme_path }}bower_components/foundation/js/foundation.min.js"></script>
+<script src="{{ theme:js }}"></script>
+
+{{ get_content from="/settings" }}{{ analytics_code }}{{ /get_content }}
+
+</body>
+</html>

@@ -1,0 +1,559 @@
+title: Full-Featured Page
+
+fields:
+  
+  page_title:
+    type: text
+    display: Page Title in Browser
+    instructions: Optional - override the title used above for SEO purposes
+  
+  meta_description:
+    type: text
+    display: Meta Description
+
+################################################################
+  
+  meta_section1:
+    type: section
+    display: Headline Section
+        
+  copy_headline:
+    type: text
+    display: Headline Text
+  
+  copy_subheadline:
+    type: text
+    display: Subheadline Text  
+   
+  headline_hide:
+    type: checkbox
+    display: Hide Headline?
+
+################################################################
+  
+  meta_section2:
+    type: section
+    display: Hero Section
+  
+  hero_col_one:
+    type: markitup
+    display: Hero Column 1
+  
+  hero_col_two:
+    type: markitup
+    display: Hero Column 2
+  
+  color_hero_bg:
+    type: radio
+    display: Hero Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 2
+  
+  hero_hide:
+    type: checkbox
+    display: Hide Hero?
+
+################################################################
+  
+  meta_section3:
+    type: section
+    display: Single Image
+  
+  copy_one_img_header:
+    type: text
+    display: Single Image Header Text
+  
+  one_img_img:
+    display: Image
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img
+  
+  one_img_img_alt:
+    type: text
+    display: Image Alt Text
+  
+  copy_one_img_paragraph:
+    type: text
+    display: Single Image Paragraph Text
+  
+  color_one_img_bg:
+    type: radio
+    display: Single Image Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+  
+  one_img_hide:
+    type: checkbox
+    display: Hide Single Image?
+
+################################################################
+  
+  meta_section4:
+    type: section
+    display: Features
+  
+  copy_features_header:
+    type: text
+    display: Features Header Text
+  
+  copy_feature1_header:
+    type: text
+    display: Feature 1 Header Text
+    
+  copy_feature1_paragraph:
+    type: text
+    display: Feature 1 Paragraph Text
+  
+  copy_feature2_header:
+    type: text
+    display: Feature 2 Header Text
+    
+  copy_feature2_paragraph:
+    type: text
+    display: Feature 2 Paragraph Text
+    
+  copy_feature3_header:
+    type: text
+    display: Feature 3 Header Text
+    
+  copy_feature3_paragraph:
+    type: text
+    display: Feature 3 Paragraph Text
+    
+  copy_feature4_header:
+    type: text
+    display: Feature 4 Header Text
+    
+  copy_feature4_paragraph:
+    type: text
+    display: Feature 4 Paragraph Text
+    
+  copy_feature5_header:
+    type: text
+    display: Feature 5 Header Text
+    
+  copy_feature5_paragraph:
+    type: text
+    display: Feature 5 Paragraph Text
+    
+  copy_feature6_header:
+    type: text
+    display: Feature 6 Header Text
+    
+  copy_feature6_paragraph:
+    type: text
+    display: Feature 6 Paragraph Text
+    
+  copy_feature7_header:
+    type: text
+    display: Feature 7 Header Text
+    
+  copy_feature7_paragraph:
+    type: text
+    display: Feature 7 Paragraph Text
+  
+  copy_feature8_header:
+    type: text
+    display: Feature 8 Header Text
+    
+  copy_feature8_paragraph:
+    type: text
+    display: Feature 8 Paragraph Text
+    
+  copy_feature9_header:
+    type: text
+    display: Feature 9 Header Text
+    
+  copy_feature9_paragraph:
+    type: text
+    display: Feature 9 Paragraph Text
+  
+  color_features_bg:
+    type: radio
+    display: Features Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+  
+  features_hide:
+    type: checkbox
+    display: Hide Features?
+
+################################################################
+  
+  meta_section5:
+    type: section
+    display: Steps
+  
+  copy_steps_header:
+    type: text
+    display: Steps Header Text
+  
+  copy_step1_circle:
+    type: text
+    display: Step 1 Circle Text
+    
+  copy_step1_text:
+    type: text
+    display: Step 1 Text
+  
+  copy_step2_circle:
+    type: text
+    display: Step 2 Circle Text
+    
+  copy_step2_text:
+    type: text
+    display: Step 2 Text
+    
+  copy_step3_circle:
+    type: text
+    display: Step 3 Circle Text
+    
+  copy_step3_text:
+    type: text
+    display: Step 3 Text
+  
+  color_steps_bg:
+    type: radio
+    display: Steps Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 2
+  
+  steps_hide:
+    type: checkbox
+    display: Hide Steps?
+
+################################################################
+  
+  meta_section6:
+    type: section
+    display: Features With Pricing
+  
+  copy_pricing_features_header:
+    type: text
+    display: Features With Pricing Header Text
+  
+  copy_pricing_feature1_header:
+    type: text
+    display: Feature 1 Header Text
+    
+  copy_pricing_feature1_paragraph:
+    type: text
+    display: Feature 1 Paragraph Text
+  
+  copy_pricing_feature2_header:
+    type: text
+    display: Feature 2 Header Text
+    
+  copy_pricing_feature2_paragraph:
+    type: text
+    display: Feature 2 Paragraph Text
+    
+  copy_pricing_feature3_header:
+    type: text
+    display: Feature 3 Header Text
+    
+  copy_pricing_feature3_paragraph:
+    type: text
+    display: Feature 3 Paragraph Text
+    
+  copy_pricing_feature4_header:
+    type: text
+    display: Feature 4 Header Text
+    
+  copy_pricing_feature4_paragraph:
+    type: text
+    display: Feature 4 Paragraph Text
+    
+  copy_pricing_feature5_header:
+    type: text
+    display: Feature 5 Header Text
+    
+  copy_pricing_feature5_paragraph:
+    type: text
+    display: Feature 5 Paragraph Text
+    
+  copy_pricing_feature6_header:
+    type: text
+    display: Feature 6 Header Text
+    
+  copy_pricing_feature6_paragraph:
+    type: text
+    display: Feature 6 Paragraph Text
+    
+  copy_pricing_feature7_header:
+    type: text
+    display: Feature 7 Header Text
+    
+  copy_pricing_feature7_paragraph:
+    type: text
+    display: Feature 7 Paragraph Text
+  
+  copy_pricing_feature8_header:
+    type: text
+    display: Feature 8 Header Text
+    
+  copy_pricing_feature8_paragraph:
+    type: text
+    display: Feature 8 Paragraph Text
+    
+  copy_pricing_feature9_header:
+    type: text
+    display: Feature 9 Header Text
+    
+  copy_pricing_feature9_paragraph:
+    type: text
+    display: Feature 9 Paragraph Text
+  
+  copy_pricing_table1_header:
+    type: text
+    display: Pricing Table 1 Header Text
+  
+  pricing_table1_grid:
+    display: Pricing Table 1 Items
+    type: grid
+    starting_rows: 3
+    fields:
+      pricing_table1_item:
+        display: Item
+        type: text
+        width: 100%
+    
+  copy_pricing_table1_button:
+    type: text
+    display: Pricing Table 1 Button
+  
+  copy_pricing_table2_header:
+    type: text
+    display: Pricing Table 2 Header Text
+  
+  pricing_table2_grid:
+    display: Pricing Table 2 Items
+    type: grid
+    starting_rows: 3
+    fields:
+      pricing_table2_item:
+        display: Item
+        type: text
+        width: 100%
+    
+  copy_pricing_table2_button:
+    type: text
+    display: Pricing Table 2 Button
+    
+  copy_pricing_table3_header:
+    type: text
+    display: Pricing Table 3 Header Text
+  
+  pricing_table3_grid:
+    display: Pricing Table 3 Items
+    type: grid
+    starting_rows: 3
+    fields:
+      pricing_table3_item:
+        display: Item
+        type: text
+        width: 100%
+    
+  copy_pricing_table3_button:
+    type: text
+    display: Pricing Table 3 Button
+  
+  copy_pricing_features_footer:
+    type: text
+    display: Features With Pricing Footer Text
+  
+  color_pricing_features_bg:
+    type: radio
+    display: Features With Pricing Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+  
+  pricing_features_hide:
+    type: checkbox
+    display: Hide Features With Pricing?
+
+################################################################
+  
+  meta_section7:
+    type: section
+    display: Four Images
+  
+  copy_four_img_header:
+    type: text
+    display: Four Images Header Text
+  
+  four_img_img1:
+    display: Image 1
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img
+  
+  four_img_img1_alt:
+    type: text
+    display: Image 1 Alt Text
+  
+  four_img_img2:
+    display: Image 2
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img
+  
+  four_img_img2_alt:
+    type: text
+    display: Image 2 Alt Text
+    
+  four_img_img3:
+    display: Image 3
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img
+  
+  four_img_img3_alt:
+    type: text
+    display: Image 3 Alt Text
+    
+  four_img_img4:
+    display: Image 4
+    type: file
+    allowed: [png, gif, jpg, jpeg]
+    destination: assets/img
+  
+  four_img_img4_alt:
+    type: text
+    display: Image 4 Alt Text
+  
+  copy_four_img_paragraph:
+    type: text
+    display: Four Images Paragraph Text
+  
+  color_four_img_bg:
+    type: radio
+    display: Four Images Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 2
+  
+  four_img_hide:
+    type: checkbox
+    display: Hide Four Images?
+
+################################################################
+
+  meta_section8:
+    type: section
+    display: HTML Section
+    
+  html_section:
+    type: textarea
+    display: HTML
+    
+  color_html_section_bg:
+    type: radio
+    display: HTML Section Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+  
+  html_section_hide:
+    type: checkbox
+    display: Hide HTML Section?
+
+################################################################
+
+  meta_section9:
+    type: section
+    display: HTML Section 2
+    
+  html_section2:
+    type: textarea
+    display: HTML
+    
+  color_html_section2_bg:
+    type: radio
+    display: HTML Section 2 Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+  
+  html_section2_hide:
+    type: checkbox
+    display: Hide HTML Section 2?
+
+################################################################
+  
+  meta_section10:
+    type: section
+    display: Frequently Asked Questions
+  
+  copy_faq_header:
+    type: text
+    display: Frequently Asked Questions Header Text
+  
+  faq_grid:
+    display: Frequently Asked Questions
+    type: grid
+    starting_rows: 3
+    fields:
+      faq_header:
+        display: Header
+        type: text
+        width: 50%
+      faq_paragraph:
+        display: Paragraph
+        type: markitup
+        width: 50%
+    
+  copy_faq_button:
+    type: text
+    display: Frequently Asked Questions Button Text
+  
+  faq_button_url:
+    type: text
+    display: Frequently Asked Questions Button Link
+  
+  color_faq_bg:
+    type: radio
+    display: Frequently Asked Questions Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+  
+  faq_hide:
+    type: checkbox
+    display: Hide Frequently Asked Questions?
+
+################################################################
+  
+  meta_section11:
+    type: section
+    display: Footer
+  
+  color_footer_bg:
+    type: radio
+    display: Footer Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 2
+          
+  content:
+    type: hidden
+    
+  _template:
+    type: hidden
+    default: page-full

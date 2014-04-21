@@ -1,0 +1,142 @@
+/*==================================================================================================
+Type Theme 04
+==================================================================================================*/
+//@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic);
+
+
+
+/*==================================================================================================
+My Variables
+==================================================================================================*/
+$font-name1: "Source Sans Pro";
+$font-name2: "Source Sans Pro";
+$font-stack: "Helvetica Neue", Helvetica, Arial, sans-serif;
+@import "master/blog_type_04";
+
+$p-small-font-size: rem-calc(16px);
+$p-small-line-height: 1.5;
+$p-smaller-font-size: rem-calc(14px);
+$p-smaller-line-height: 1.4;
+$templates-header-font-size: rem-calc(24px);
+
+$logo-font-family: $font-name2, $font-stack;
+$logo-font-weight: 300;
+$logo-font-style: normal;
+$logo-font-size: rem-calc(42px);
+$logo-font-size-small: rem-calc(30px);
+$logo-line-height: 1.2;
+$logo-letter-spacing: 0;
+$logo-text-transform: none;
+
+$nav-font-family: $font-name1, $font-stack;
+$nav-font-weight: 300;
+$nav-font-style: normal;
+$nav-font-size: rem-calc(18px);
+$nav-line-height: 2.4;
+$nav-letter-spacing: 0;
+$nav-text-transform: none;
+
+$headline-font-family: $font-name2, $font-stack;
+$headline-font-weight: bold;
+$headline-font-style: normal;
+$headline-font-size: rem-calc(40px);
+$headline-font-size-small: rem-calc(34px);
+$headline-line-height: 1.2;
+$headline-letter-spacing: 0;
+$headline-text-transform: none;
+
+$subheadline-font-family: $font-name2, $font-stack;
+$subheadline-font-weight: 300;
+$subheadline-font-style: italic;
+$subheadline-font-size: rem-calc(18px);
+$subheadline-line-height: 1.3;
+$subheadline-letter-spacing: 0;
+$subheadline-text-transform: none;
+
+$body-header1-font-family: $font-name2, $font-stack;
+$body-header1-font-weight: bold;
+$body-header1-font-style: normal;
+$body-header1-font-size: rem-calc(21px);
+$body-header1-line-height: 1.3;
+$body-header1-letter-spacing: 0;
+$body-header1-text-transform: none;
+
+$body-header2-font-family: $font-name2, $font-stack;
+$body-header2-font-weight: 600;
+$body-header2-font-style: normal;
+$body-header2-font-size: rem-calc(18px);
+$body-header2-line-height: 1.3;
+$body-header2-letter-spacing: 0;
+$body-header2-text-transform: none;
+
+$button-font-family: $font-name2, $font-stack;
+$button-font-weight: 300;
+$button-font-style: normal;
+$button-font-size: rem-calc(16px);
+$button-line-height: 1.3;
+$button-letter-spacing: 0;
+$button-text-transform: none;
+
+$step-number-font-family: $font-name2, $font-stack;
+$step-number-font-weight: 600;
+$step-number-font-style: normal;
+$step-number-font-size: rem-calc(26px);
+$step-number-line-height: 1.3;
+$step-number-letter-spacing: 0;
+$step-number-text-transform: none;
+
+$footer-font-family: $font-name1, $font-stack;
+$footer-font-weight: normal;
+$footer-font-style: normal;
+$footer-font-size: rem-calc(14px);
+$footer-line-height: 1.7;
+$footer-letter-spacing: 0;
+$footer-text-transform: none;
+
+
+
+/*==================================================================================================
+Foundation Variables
+==================================================================================================*/
+$body-font-family: $font-name1, $font-stack;
+$paragraph-line-height: 1.5;
+$header-font-family: $font-name2, $font-stack;
+$input-font-family: $font-name1, $font-stack;
+$input-font-size: rem-calc(16px);
+
+
+
+/*==================================================================================================
+Spacing Adjustments
+==================================================================================================*/
+
+header h2 a {
+	//padding: 0.75em !important;
+	border: none !important;
+}
+
+header div div h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+nav div div ul {
+	padding-top: 0.6em;
+	margin-bottom: 0.6em !important;
+}
+
+div.section-headline h5 {
+	//margin-top: -0.875em;
+	margin-top: -0.25em;
+}
+
+.button {
+	padding-top: 0.9em !important;
+	padding-bottom: 0.95em !important;
+}
+
+div.section-btn a.button {
+	padding-top: 1em !important;
+	padding-bottom: 1.125em !important;
+}

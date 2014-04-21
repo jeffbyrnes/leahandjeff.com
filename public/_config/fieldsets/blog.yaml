@@ -1,0 +1,115 @@
+title: Blog
+hide: yes
+
+fields:
+  
+  page_title:
+    type: text
+    display: Page Title in Browser
+    instructions: Optional - override the title used above for SEO purposes
+  
+  meta_description:
+    type: text
+    display: Meta Description
+  
+  content:
+    type: hidden
+    display: Content
+  
+  color_body_bg:
+    type: radio
+    display: Body Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+    
+  color_footer_bg:
+    type: radio
+    display: Footer Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 2
+  
+  disqus_account_name:
+    type: text
+    display: Disqus Account Name For Comments
+    
+  num_blog_posts_per_page:
+    type: select
+    display: Number of Blog Posts Per Page
+    options:
+     - 1
+     - 2
+     - 3
+     - 4
+     - 5
+     - 6
+     - 7
+     - 8
+     - 9
+     - 10
+     - 15
+     - 20
+     - 30
+     - 40
+     - 50
+     - 100
+     - 500
+     - 1000
+    default: 4
+  
+  has_sidebar:
+    type: checkbox
+    display: Display Sidebar?
+    default: 1
+    
+  has_categories_count:
+    type: checkbox
+    display: Display Post Count in Categories?
+    default: 1
+  
+  copy_blog_archive:
+    type: text
+    display: Blog Archive Text
+  
+  blog_archive_url_segment:
+    type: text
+    display: Blog Archive URL Segment
+  
+  copy_blog_home:
+    type: text
+    display: Blog Home Text
+  
+  copy_blog_read_more:
+    type: text
+    display: Read More Text
+    
+  copy_blog_tags:
+    type: text
+    display: Tags Text  
+  
+  copy_blog_related_posts:
+    type: text
+    display: Related Posts Text
+  
+  copy_blog_categories:
+    type: text
+    display: Categories Text
+  
+  copy_blog_categories_title:
+    type: text
+    display: Categories Page Title Text
+    
+  copy_next:
+    type: text
+    display: Next Text
+    
+  copy_prev:
+    type: text
+    display: Previous Text
+    
+  _template:
+    type: hidden
+    default: blog

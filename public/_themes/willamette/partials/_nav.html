@@ -1,0 +1,13 @@
+<nav>
+	<div class="row">
+		<div class="small-12 medium-12 large-12 columns">			
+			<ul>
+				<li><a href="/" {{ if !segment_1 }} class="current" {{ endif }}>{{ get_content from="/" }}{{ title }}{{ /get_content }}</a></li>
+				{{ nav from="/" folders_only="true" }}
+				<li><a href="{{ url }}" {{ if is_current }} class="current"{{ endif }}>{{ title }}</a></li>
+				{{ /nav }}
+				{{ get_content from="/settings" }}{{ main_nav_external_links }}{{ /get_content }}					
+			</ul>
+		</div>
+	</div>
+</nav>

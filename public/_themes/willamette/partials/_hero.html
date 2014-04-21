@@ -1,0 +1,12 @@
+<div class="section-hero {{ if color_hero_bg == "color_1" }} section-bg-color1 {{ else }} section-bg-color2 {{ endif }}">
+	<div class="row">
+		<div class="small-12 medium-6 large-6 columns">
+			<div class="templates">
+				{{ get_content from="/home" }}{{ hero_col_one|smartypants }}{{ /get_content }}
+			</div>
+		</div>
+		<div class="small-12 medium-6 large-6 columns">
+			{{ get_content from="/home" }}{{ hero_col_two|smartypants }}{{ /get_content }}
+		</div>
+	</div>
+</div>

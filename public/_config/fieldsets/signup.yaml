@@ -1,0 +1,22 @@
+hide: yes
+
+fields:
+        
+  copy_header:
+    type: text
+    display: Header Text
+    
+  copy_field_placeholder:
+    type: text
+    display: Field Placeholder Text
+    
+  copy_button:
+    type: text
+    display: Button Text
+    
+  copy_instructions:
+    type: text
+    display: Instructions Text
+        
+  content:
+    type: hidden

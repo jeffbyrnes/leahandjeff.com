@@ -1,0 +1,72 @@
+hide: yes
+
+fields:
+  
+  type_theme:
+    type: select
+    display: Type Theme
+    options:
+      type1: 1) Open Sans
+      type2: 2) Roboto + Roboto Slab
+      type3: 3) Playfair Display
+      type4: 4) Source Sans Pro
+      type5: 5) Merriweather
+      type6: 6) Open Sans + Arvo
+      type7: 7) Roboto + Inconsolata
+      type8: 8) Karla
+      type9: 9) Alegreya
+      type10: 10) Anonymous Pro + Questrial
+
+  color_theme:
+    type: select
+    display: Color Theme
+    options:
+      color1: 1) Orange + Dark Blue + Warm Grey
+      color2: 2) Blue + Bluish Grey + Light Blue
+      color3: 3) Navy Blue + Dark Blue + Brownish Beige
+      color4: 4) Green + Blue + Light Grey
+      color5: 5) Green + Brownish Grey + Beige
+      color6: 6) Brown + Beige
+      color7: 7) Red + Dark Blue + Warm Grey
+      color8: 8) Red + Blue + Light Grey
+      color9: 9) Navy Blue + Dark Blue + Light Blue
+      color10: 10) Purple + Light Blue
+  
+  copy_site_title:
+    type: text
+    display: Site Title
+    instructions: Site Title in Browser
+  
+  email_address:
+    type: text
+    display: Email Address
+  
+  copy_logo:
+    type: text
+    display: Logo Text
+  
+  main_nav_external_links:
+    type: textarea
+    display: Main Nav External Links
+    instructions: Reference - typeandgrids.com/reference/external_links.txt
+
+  subscription_action_url:
+    type: text
+    display: Subscription Action URL
+  
+  footer_html:
+    type: textarea
+    display: Footer HTML
+    instructions: Reference - typeandgrids.com/reference/footer.txt
+  
+  social_icons:
+    type: textarea
+    display: Footer Social Icons
+    instructions: Reference - typeandgrids.com/reference/social_icons.txt
+  
+  analytics_code:
+    type: textarea
+    display: Analytics Code
+        
+  content:
+    type: hidden

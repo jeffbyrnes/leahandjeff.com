@@ -1,0 +1,53 @@
+hide: true
+
+fields:
+  
+  page_title:
+    type: text
+    display: Page Title in Browser
+    instructions: Optional - override the title used above for SEO purposes
+  
+  meta_description:
+    type: text
+    display: Meta Description
+  
+  categories:
+    type: suggest
+    display: Categories
+    create: true
+    taxonomy:
+      folder: blog
+      type: categories
+  
+  excerpt:
+    type: markitup
+    display: Excerpt
+  
+  content:
+    type: markitup
+    display: Content
+  
+  has_comments:
+    type: checkbox
+    display: Enable Comments?
+    default: 0
+  
+  color_body_bg:
+    type: radio
+    display: Body Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 1
+    
+  color_footer_bg:
+    type: radio
+    display: Footer Background Color
+    options:
+      color_1: Color 1
+      color_2: Color 2
+    default: 2
+    
+  _template:
+    type: hidden
+    default: blog-post

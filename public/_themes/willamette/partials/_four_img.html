@@ -1,0 +1,14 @@
+<div class="section-four-img {{ if color_four_img_bg == "color_1" }} section-bg-color1 {{ else }} section-bg-color2 {{ endif }}">
+	<div class="row">
+		<div class="small-12 medium-12 large-12 columns">
+			<h3>{{ get_content from="/home" }}{{ copy_four_img_header|smartypants }}{{ /get_content }}</h3>
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4 inline-list-custom">
+				<li><img src="{{ get_content from="/home" }}{{ four_img_img1 }}{{ /get_content }}" alt="{{ get_content from="/home" }}{{ four_img_img1_alt }}{{ /get_content }}" /></li>
+				<li><img src="{{ get_content from="/home" }}{{ four_img_img2 }}{{ /get_content }}" alt="{{ get_content from="/home" }}{{ four_img_img2_alt }}{{ /get_content }}" /></li>
+				<li><img src="{{ get_content from="/home" }}{{ four_img_img3 }}{{ /get_content }}" alt="{{ get_content from="/home" }}{{ four_img_img3_alt }}{{ /get_content }}" /></li>
+				<li><img src="{{ get_content from="/home" }}{{ four_img_img4 }}{{ /get_content }}" alt="{{ get_content from="/home" }}{{ four_img_img4_alt }}{{ /get_content }}" /></li>
+			</ul>
+			{{ if copy_four_img_paragraph }}<p>{{ get_content from="/home" }}{{ copy_four_img_paragraph|smartypants }}{{ /get_content }}</p>{{ endif }}
+		</div>
+	</div>
+</div>

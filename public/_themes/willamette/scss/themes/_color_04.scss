@@ -1,0 +1,70 @@
+/*==================================================================================================
+Color Theme 04
+==================================================================================================*/
+@import "master/master_color_theme_04";
+
+
+
+/*==================================================================================================
+Foundation Variables
+==================================================================================================*/
+$primary-color: shade($color-dark, 50%);
+$secondary-color: $color-highlight;
+$alert-color: $color-highlight;
+$success-color: $color-highlight;
+
+$body-bg: tint($color-light, 40%);
+
+$body-font-color: shade($color-dark, 50%);
+$anchor-font-color-hover: $color-highlight;
+$header-font-color: shade($color-dark, 50%);
+
+$hr-border-color: $color-dark-on-light-20;
+
+$input-font-color: shade($color-dark, 70%);
+$input-bg-color: tint($color-light, 90%);
+$input-focus-bg-color: #fff;
+$input-border-color: shade($color-dark, 65%);
+$input-focus-border-color: #fff;
+
+
+
+/*==================================================================================================
+My Variables
+==================================================================================================*/
+$color-logo: tint($color-light, 50%);
+$color-logo-border: tint($color-light, 20%);
+$color-header-bg: shade($color-dark, 65%);
+
+$color-nav: shade($color-dark, 50%);
+$color-nav-hover: $color-highlight;
+$color-nav-current: tint(#000, 65%);
+$color-nav-border-top: shade($color-dark, 65%);
+$color-nav-border-bottom: $color-dark-on-light-05;
+$color-nav-bg: tint($color-light, 90%);
+
+$color-section-headline-bg: tint($color-light, 40%);
+$color-section-bg-color1: tint($color-light, 90%);
+$color-section-bg-color2: tint($color-light, 40%);
+$color-section-border: shade($color-light, 0%);
+
+$color-headline: shade($color-dark, 50%);
+$color-subheadline: shade($color-dark, 40%);
+
+$color-download-box-bg: shade($color-dark, 65%);
+$color-download-box-text: tint($color-light, 60%);
+$color-download-box-button: $color-highlight;
+$color-download-box-button-hover: shade($color-dark, 10%);
+$color-download-box-border: tint($color-light, 40%);
+
+$color-box-border: $color-dark-on-light-30;
+$color-feature-box-border: $color-dark-on-light-30;
+$color-link-underline: $color-dark-on-light-40;
+
+$color-step-bg: shade($color-dark, 50%);
+$color-step-number: tint($color-light, 5%);
+
+$color-section-button: $color-highlight;
+$color-section-button-hover: shade($color-dark, 50%);
+
+$color-footer-text: shade($color-dark, 50%);
