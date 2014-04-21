@@ -1,22 +1,5 @@
 # 5G FIREWALL from PerishablePress.com
 
-# 5G:[QUERY STRINGS]
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-    RewriteCond %{QUERY_STRING} (environ|localhost|mosconfig|scanner) [NC,OR]
-    RewriteCond %{QUERY_STRING} (mod|path|tag)\=\.?/? [NC,OR]
-    RewriteCond %{QUERY_STRING} boot\.ini  [NC,OR]
-    RewriteCond %{QUERY_STRING} echo.*kae  [NC,OR]
-    RewriteCond %{QUERY_STRING} etc/passwd [NC,OR]
-    RewriteCond %{QUERY_STRING} \=\\%27$   [NC,OR]
-    RewriteCond %{QUERY_STRING} \=\\\'$    [NC,OR]
-    RewriteCond %{QUERY_STRING} \.\./      [NC,OR]
-    RewriteCond %{QUERY_STRING} \[         [NC,OR]
-    RewriteCond %{QUERY_STRING} \]         [NC]
-    RewriteRule .* - [F]
-</IfModule>
-
 # 5G:[USER AGENTS]
 <IfModule mod_setenvif.c>
     SetEnvIfNoCase User-Agent ^$ keep_out
