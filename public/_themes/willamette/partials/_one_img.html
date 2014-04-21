@@ -1,9 +1,0 @@
-<div class="section-one-img {{ if color_one_img_bg == "color_1" }} section-bg-color1 {{ else }} section-bg-color2 {{ endif }}">
-	<div class="row">
-		<div class="small-12 medium-12 large-12 columns">
-			<h3>{{ get_content from="/home" }}{{ copy_one_img_header|smartypants }}{{ /get_content }}</h3>
-			<img src="{{ get_content from="/home" }}{{ one_img_img }}{{ /get_content }}" alt="{{ get_content from="/home" }}{{ one_img_img_alt }}{{ /get_content }}" />
-			{{ if copy_one_img_paragraph }}<p>{{ get_content from="/home" }}{{ copy_one_img_paragraph|smartypants }}{{ /get_content }}</p>{{ endif }}
-		</div>
-	</div>
-</div>
