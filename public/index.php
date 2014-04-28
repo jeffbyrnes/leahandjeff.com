@@ -1,37 +1,7 @@
-<!doctype html>
-<html class="no-js" lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Leah & Jeff Are Getting Married!</title>
-    <meta name="description" content="Wedding details for the marriage of Leah Burrows and Jeff Byrnes">
-
-    <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700italic,700|Roboto+Slab:400,100,300,700" rel="stylesheet">
-    <link href="css/willamette_type2_color7.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- <script src="js/vendor/modernizr.js"></script> -->
-</head>
-<body>
-
-    <header>
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <h2><a href="index.html">Leah & Jeff</a></h2>
-            </div>
-        </div>
-    </header>
-
-    <nav>
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <ul>
-                    <li><a href="/" class="current">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+<?php
+$title = 'index';
+require_once('_header.php');
+?>
 
     <div class="section-headline">
         <div class="row">
@@ -46,27 +16,24 @@
         <div class="row">
             <div class="small-12 medium-6 large-6 columns">
                 <div class="templates">
-                    <h3>1. Hawthorne Template</h3>
-                    <p><a href="http://www.jeremiahshoaf.com" target="_blank" class="no-underline"><img src="img/screenshots.png" alt="Hawthorne Template" /></a></p>
-                    <p class="p-small">Hawthorne is a portfolio template. <a href="http://www.jeremiahshoaf.com" target="_blank">View a live site <i class="fa fa-external-link"></i></a>.</p>
-                    <h3>2. Willamette Template</h3>
-                    <p class="p-small">Willamette is a marketing site template used by this site.</p>
+                    <h3>1. Where?</h3>
+                    <p><a href="http://www.prowsefarm.org/‎" class="no-underline"><img src="/img/prowse-farm.jpg" alt="Prowse Farm house" /></a></p>
+                    <p class="p-small">Prowse Farm in Canton, MA <a href="https://www.google.com/maps/place/Prowse+Farm/@42.208436,-71.119257,17z/data=!3m1!4b1!4m2!3m1!1s0x89e481e05ebf77bb:0x3b43de4d2a3ac8aa" target="_blank">See it on a map! <i class="fa fa-external-link"></i></a>.</p>
+
+                    <h3>2. When?</h3>
+                    <p class="p-small">October 11, 2014</p>
+
+                    <h3>3. What do I wear?</h3>
+                    <p>Be as fancy as you like, but black tie is not required.</p>
                 </div>
             </div>
             <div class="small-12 medium-6 large-6 columns">
                 <div class="download-box">
                     <h3>RSVP </h3>
                     <iframe src="https://docs.google.com/forms/d/1Kn9ObfmGamx12Q1Gs3V8oYPgiaKefD61tmL3OXTRpNQ/viewform?embedded=true" width="452" height="420" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    <!-- Begin MailChimp Signup Form -->
-                    <!-- <div id="mc_embed_signup">
-                        <form action="http://typeandgrids.us7.list-manage.com/subscribe/post?u=ad6213c8bf237d18f2211dbf7&amp;id=ab2a48292f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                            <input type="email" placeholder="hello@example.com" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                            <input type="submit" value="Subscribe &rarr;" name="subscribe" id="mc-embedded-subscribe" class="button round">
-                        </form>
-                    </div> -->
-                    <!--End mc_embed_signup-->
+
                     <p class="p-smaller">
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Donec mattis massa vel interdum faucibus in ultrices tortor commodo.
+                        If you’re attending, please be sure to indicate how many are in your party.
                     </p>
                 </div>
             </div>
@@ -345,25 +312,5 @@
         </div>
     </div>
 
-    <footer class="section-bg-color2">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <ul>
-                    <li>&copy; 2014 Leah & Jeff. All rights reserved.</li>
-                </ul>
-                <div class="social-icons">
-                    <a href="http://www.twitter.com/typeandgrids" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
-                    <a href="http://www.facebook.com/typeandgrids" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-                    <div class="footer-badge">
-                        <a href="index.html"><img src="img/footer-badge@2x.png" width="57" height="57" alt="Home" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- <script src="js/vendor/jquery.min.js"></script> -->
-    <script src="js/foundation.min.js"></script>
-    <script src="js/willamette.js"></script>
-</body>
-</html>
+<?php
+require_once('_footer.php');
