@@ -22,6 +22,12 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/willamette.js"></script>
 
-    <script src="http://localhost:35729/livereload.js"></script>
+    <?php
+    if ($_SERVER['HTTP_HOST'] === 'local.leahandjeff.com') {
+        ?>
+        <script src="http://localhost:35729/livereload.js"></script>
+        <?php
+    }
+    ?>
 </body>
 </html>
