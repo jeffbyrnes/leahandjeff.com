@@ -2,7 +2,7 @@
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <ul>
-                    <li>&copy; 2014 Leah & Jeff. All rights reserved.</li>
+                    <li>© 2014 Leah & Jeff. All rights reserved.</li>
                 </ul>
                 <div class="social-icons">
                     <a href="http://www.twitter.com/thejeffbyrnes"><i class="fa fa-twitter-square fa-2x"></i></a>
