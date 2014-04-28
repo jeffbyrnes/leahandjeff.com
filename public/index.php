@@ -21,7 +21,7 @@ require_once('_header.php');
                     <p class="p-small">Prowse Farm in Canton, MA <a href="https://www.google.com/maps/place/Prowse+Farm/@42.208436,-71.119257,17z/data=!3m1!4b1!4m2!3m1!1s0x89e481e05ebf77bb:0x3b43de4d2a3ac8aa" target="_blank">See it on a map! <i class="fa fa-external-link"></i></a>.</p>
 
                     <h3>2. When?</h3>
-                    <p class="p-small">October 11, 2014</p>
+                    <p class="p-small"><time datetime="2014-10-11T17:30:00-04:00">October 11, 2014, at 5:30pm.</time></p>
 
                     <h3>3. What do I wear?</h3>
                     <p>Be as fancy as you like, but black tie is not required.</p>
