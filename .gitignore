@@ -12,10 +12,5 @@
 
 /shared
 /node_modules
-/public/css
-/public/js
-/public/_themes/willamette/css
-/public/_themes/willamette/js
 /bower_components
 .tags*
-/public/assets/img/cache/
