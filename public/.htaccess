@@ -37,8 +37,13 @@
 </IfModule>
 
 <IfModule mod_rewrite.c>
-    # # Remove the index.php
-    # RewriteCond %{REQUEST_FILENAME} !-f
-    # RewriteCond %{REQUEST_FILENAME} !-d
-    # RewriteRule ^(.*)$ index.php [QSA,L]
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_URI} !(/$|\.)
+    RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
+
+    # Handle about page
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^about/?$ about.php [QSA,NC,L]
 </IfModule>

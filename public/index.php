@@ -108,7 +108,7 @@ require_once('_header.php');
                     </li>
                 </ul>
 
-                <div class="section-btn"><a href="about.html" class="button round">Learn More About Us →</a></div>
+                <div class="section-btn"><a href="/about/" class="button round">Learn More About Us →</a></div>
             </div>
         </div>
     </div>
