@@ -18,7 +18,7 @@
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <h2>
-                    <img src="/img/jeff-and-leah.png"><br>
+                    <img src="/img/jeff-and-leah.png" width="296.5" height="265"><br>
                     <a href="/">Leah & Jeff</a>
                 </h2>
             </div>
