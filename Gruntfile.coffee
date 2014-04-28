@@ -15,9 +15,6 @@ module.exports = (grunt) ->
     sourceStyleDir: "<%= publicDir %>/_scss"
     releaseStyleDir: "<%= publicDir %>/css"
 
-    # Delete generated files
-    clean: ["<%= releaseStyleDir %>"]
-
     # Lint Coffee using CoffeeLint
     coffeelint:
       options:
@@ -25,47 +22,21 @@ module.exports = (grunt) ->
           "level": "ignore"
       gruntfile: ["Gruntfile.coffee"]
 
-    # Compile Sass into CSS
-    compass:
-      options:
-        importPath: [
-          "bower_components",
-          "bower_components/normalize-scss",
-          "public/_themes/leahandjeff/sass"
-        ]
-
-      prod:
-        options:
-          environment: "production"
-          outputStyle: "compressed"
-          noLineComments: true
-
-      dev:
-        options:
-          environment: "development"
-          outputStyle: "expanded"
-          debugInfo: true
-          # Doesn't work in current Compass alpha
-          # sourcemap: true
-
     # Watch files for changes
     watch:
       gruntfile:
         files: "<%= coffeelint.gruntfile %>"
         tasks: ["coffeelint"]
 
-      compass:
-        files: ["<%= sourceStyleDir %>/*.scss"]
-        tasks: ["compass:dev"]
-
       livereload:
         options:
           livereload: true
 
-        files: ["<%= releaseStyleDir %>/*.css", "<%= publicDir %>/**/*.php"]
-
+        files: [
+          "<%= releaseStyleDir %>/*.css"
+          "<%= publicDir %>/**/*.php"
+        ]
 
   # Default task.
-  grunt.registerTask "default", ["compass:dev"]
-  grunt.registerTask "release", ["clean", "compass:prod"]
+  grunt.registerTask "default", ["coffeelint"]
   grunt.util.linefeed = "\n"
