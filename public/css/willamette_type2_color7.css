@@ -74,7 +74,7 @@ aside.blog-sidebar h5 {
 }
 
 aside.blog-sidebar h5, .related-posts h5 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.125rem;
@@ -85,7 +85,7 @@ aside.blog-sidebar h5, .related-posts h5 {
 }
 
 aside.blog-sidebar li, aside.blog-sidebar p {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.125rem;
@@ -121,7 +121,7 @@ article {
 }
 
 article h1, h1.archive-title {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.5rem;
@@ -131,7 +131,7 @@ article h1, h1.archive-title {
 }
 
 article h6.date {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
@@ -142,7 +142,7 @@ article h6.date {
 }
 
 article p, article li {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-size: 0.875rem;
   line-height: 1.5;
 }
@@ -154,7 +154,7 @@ article p a {
 }
 
 article p.byline {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
@@ -181,7 +181,7 @@ article .caption {
 }
 
 div div div article h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.3125rem;
@@ -213,7 +213,7 @@ div div div article h3 {
 .related-posts ul li {
   margin-left: 0;
   line-height: 1.8;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1.125rem;
@@ -251,7 +251,7 @@ h1.archive-title {
 }
 
 .archive-item h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.125rem;
@@ -262,7 +262,7 @@ h1.archive-title {
 }
 
 .archive-item h6.date {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 0.875rem;
@@ -278,7 +278,7 @@ h1.archive-title {
 }
 
 .pagination-custom p span {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 1rem;
@@ -353,7 +353,7 @@ a img:hover {
 }
 
 .button {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1rem !important;
@@ -442,7 +442,7 @@ div h1, div h2, div h3, div h4, div h5, div h6 {
 }
 
 div div div h3 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.3125rem;
@@ -453,7 +453,7 @@ div div div h3 {
 }
 
 div div div h4 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.125rem;
@@ -481,7 +481,7 @@ header div.logo {
 }
 
 header h2 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 1.5rem;
@@ -520,7 +520,7 @@ nav ul {
 }
 
 nav ul li {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1rem;
@@ -591,7 +591,7 @@ Body
 }
 
 .section-headline h1 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.875rem;
@@ -611,7 +611,7 @@ Body
 }
 
 .section-headline h2 {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 1.125rem;
@@ -744,7 +744,7 @@ div div div .feature-box h4 {
 }
 
 .step-number {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-style: normal;
   font-size: 1.625rem;
@@ -871,7 +871,7 @@ footer ul {
 }
 
 footer li {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
   font-size: 0.875rem;
@@ -979,7 +979,7 @@ body {
   color: #334c62;
   padding: 0;
   margin: 0;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1494,7 +1494,7 @@ select {
 }
 button, .button {
   cursor: pointer;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: 300;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1966,7 +1966,7 @@ textarea {
   -webkit-border-radius: 0;
   border-radius: 0;
   background-color: #fbfbfb;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   border: 1px solid #233544;
   -webkit-box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
   box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
@@ -3873,7 +3873,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: #334c62;
@@ -4363,7 +4363,7 @@ meta.foundation-mq-topbar {
   color: white;
   padding: 12px 0 12px 0;
   padding-left: 15px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
   font-size: 0.8125rem;
   font-weight: normal;
   background: #333333;
