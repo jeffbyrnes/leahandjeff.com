@@ -17,7 +17,10 @@
     <header>
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
-                <h2><a href="/">Leah & Jeff</a></h2>
+                <h2>
+                    <img src="/img/jeff-and-leah.png"><br>
+                    <a href="/">Leah & Jeff</a>
+                </h2>
             </div>
         </div>
     </header>
