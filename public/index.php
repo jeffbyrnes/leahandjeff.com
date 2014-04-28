@@ -7,7 +7,7 @@ require_once('_header.php');
         <div class="row">
             <div class="small-12 medium-12 large-12 large-centered columns">
                 <h1>Leah & Jeff Are Getting Married!</h1>
-                <h5>October 11, 2014 @ Prowse Farm, Canton, MA</h5>
+                <h2>October 11, 2014 @ Prowse Farm, Canton, MA</h2>
             </div>
         </div>
     </div>
