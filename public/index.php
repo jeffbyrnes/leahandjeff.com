@@ -25,8 +25,10 @@ require_once('_header.php');
 
                     <h3>3. What do I wear?</h3>
                     <p>Be as fancy as you like, but black tie is not required.</p>
+                    <p>Leah & Jeff will be semi-formal, in a gown and tuxedo.</p>
                 </div>
             </div>
+
             <div class="small-12 medium-6 large-6 columns">
                 <div class="download-box">
                     <h3>RSVP </h3>
@@ -40,238 +42,31 @@ require_once('_header.php');
         </div>
     </div>
 
-    <div class="section-one-img section-bg-color2">
+    <div class="section-features section-bg-color2">
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
-                <h3>Easily Customize Each Template With 6 Type Themes + 6 Color Themes</h3>
-                <img src="img/themes.png" alt="Type and color themes" />
-                <p><em>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere magna neque</em></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-features section-bg-color1">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <h3>Features</h3>
+                <h3>Registries!</h3>
+                <p>In case you’d like to get us something fun</p>
             </div>
         </div>
         <div class="row">
             <div class="small-12 medium-4 large-4 columns">
                 <div class="feature-box">
-                    <h4><i class="fa fa-pagelines fa-lg fa-fw"></i> Feature One</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
+                    <h4><a href="http://www.heathceramics.com/giftregistry/view/index/id/2f1db3338004759bbf51ff8d078a55ce/"><i class="fa fa-pagelines fa-lg fa-fw"></i> Heath Ceramics</a></h4>
+                    <p>All manner of lovely plates, cups, mugs, and other&nbsp;kitchenwares.</p>
                 </div>
             </div>
             <div class="small-12 medium-4 large-4 columns">
                 <div class="feature-box">
-                    <h4><i class="fa fa-rocket fa-lg fa-fw"></i> Feature Two</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
+                    <h4><a href="http://www.amazon.com/registry/wedding/3URXQDPW28V0J"><i class="fa fa-laptop fa-lg fa-fw"></i> Amazon.com</a></h4>
+                    <p>Lots of fun home goods, from useful to purely&nbsp;entertaining.</p>
                 </div>
             </div>
             <div class="small-12 medium-4 large-4 columns">
                 <div class="feature-box">
-                    <h4><i class="fa fa-expand fa-lg fa-fw"></i> Feature Three</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
+                    <h4><i class="fa fa-rocket fa-lg fa-fw"></i> Honeyfund</h4>
+                    <p>Help us enjoy some extra fun on our&nbsp;honeymoon!</p>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-check-square fa-lg fa-fw"></i> Feature Four</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-certificate fa-lg fa-fw"></i> Feature Five</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-ban fa-lg fa-fw"></i> Feature Six</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-steps section-bg-color2">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <h3>How It Works</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="step-holder">
-                    <div class="step"><div class="step-number">1</div></div>
-                    <p>Step one lorem ipsum dolor sit amet at feugiat nunc.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="step-holder">
-                    <div class="step"><div class="step-number">2</div></div>
-                    <p>Step two lorem ipsum dolor sit amet at feugiat nunc.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="step-holder">
-                    <div class="step"><div class="step-number">3</div></div>
-                    <p>Step three lorem ipsum dolor sit amet at feugiat nunc.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-features-pricing section-bg-color1 ">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <h3 id="pricing">Features With Pricing</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-folder-open fa-lg fa-fw"></i> Feature One</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-laptop fa-lg fa-fw"></i> Feature Two</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-plus-square fa-lg fa-fw"></i> Feature Three</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-bolt fa-lg fa-fw"></i> Feature Four</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-certificate fa-lg fa-fw"></i> Feature Five</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-terminal fa-lg fa-fw"></i> Feature Six</h4>
-                    <p>Donec congue sapien sed dui accum san, vel ultri cies purus tempor. Aenean egestas rhoncus ornare tempor.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box pricing">
-                    <h4>Pricing Table 1</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Sed interdum tincidunt nibh</li>
-                        <li>Et vehicula metus malesuada eget</li>
-                    </ul>
-                    <a href="#" class="button round">Buy Now</a>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box pricing">
-                    <h4>Pricing Table 2</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Sed interdum tincidunt nibh</li>
-                        <li>Et vehicula metus malesuada eget</li>
-                    </ul>
-                    <a href="#" class="button round">Buy Now</a>
-                </div>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box pricing">
-                    <h4>Pricing Table 3</h4>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet</li>
-                        <li>Sed interdum tincidunt nibh</li>
-                        <li>Et vehicula metus malesuada eget</li>
-                    </ul>
-                    <a href="#" class="button round">Buy Now</a>
-                </div>
-            </div>
-            <p class="pricing-footer p-small"><em>Lorem ipsum dolor sit amet consectetur adipiscing elit posuere magna neque</em></p>
-        </div>
-    </div>
-
-    <div class="section-four-img section-bg-color2">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <h3>Featured On</h3>
-                <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4 inline-list-custom">
-                    <li><img src="img/featured-on-1.png" alt="Featured On 1" /></li>
-                    <li><img src="img/featured-on-2.png" alt="Featured On 2" /></li>
-                    <li><img src="img/featured-on-3.png" alt="Featured On 3" /></li>
-                    <li><img src="img/featured-on-4.png" alt="Featured On 4" /></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-html section-bg-color1">
-        <div class="row">
-            <div class="small-12 medium-12 large-12 columns">
-                <h3>Lorem Ipsum Dolor</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="small-12 medium-6 large-6 columns">
-                <p>
-                    Maecenas at justo fermentum, dignissim quam a, condimentum augue. Maecenas sed turpis id nisi mollis ornare sed sit amet massa. Praesent varius rutrum magna, eu interdum tortor commodo eu. Ut at elit sagittis, malesuada orci eget, dapibus sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ac nunc ac velit interdum mollis. Donec id tortor vitae risus pharetra iaculis.
-                </p>
-                <blockquote>
-                    <p>
-                        &#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ante arcu, quis auctor sapien. Morbi magna leo, dapibus a pulvinar et, pharetra scelerisque felis. Mauris massa magna, gravida vitae convallis sagittis, sagittis ac ipsum. Integer arcu justo, vehicula vel accumsan ac, venenatis in massa. Curabitur in dui in urna interdum ullamcorper. Pellentesque ut imperdiet libero.&#8221;
-                        <cite>Carrie Brownstein</cite>
-                    </p>
-                </blockquote>
-                <h4>Lorem Ipsum Dolor</h4>
-                <p>
-                    Maecenas at justo fermentum, dignissim quam a, condimentum augue. Maecenas sed turpis id nisi mollis ornare sed sit amet massa. Praesent varius rutrum magna, eu interdum tortor commodo eu. Ut at elit sagittis, malesuada orci eget, dapibus sapien. Vestibulum ante ipsum primis in faucibus orci luctus.
-                </p>
-            </div>
-            <div class="small-12 medium-6 large-6 columns">
-                <p><img src="img/statamic-screenshot.png" alt="Control panel screenshot" /></p>
-                <p class="caption"><em>Image caption lorem ipsum</em></p>
-            </div>
-        </div>
-    </div>
-
-    <div class="section-html section-bg-color2 ">
-        <div class="row">
-            <div class="small-12 medium-4 large-4 columns">
-                <h4>Lorem Ipsum Dolor</h4>
-                <p>
-                    Maecenas at justo fermentum, dignissim quam a, condimentum augue. Maecenas sed turpis id nisi mollis ornare sed sit amet massa. Praesent varius rutrum magna, eu interdum tortor commodo eu. Ut at elit sagittis, malesuada orci eget, dapibus sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ac nunc ac velit interdum mollis. Donec id tortor vitae risus pharetra iaculis.
-                </p>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <h4>Lorem Ipsum Dolor</h4>
-                <p>
-                    Maecenas at justo fermentum, dignissim quam a, condimentum augue. Maecenas sed turpis id nisi mollis ornare sed sit amet massa. Praesent varius rutrum magna, eu interdum tortor commodo eu. Ut at elit sagittis, malesuada orci eget, dapibus sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ac nunc ac velit interdum mollis. Donec id tortor vitae risus pharetra iaculis.
-                </p>
-            </div>
-            <div class="small-12 medium-4 large-4 columns">
-                <h4>Lorem Ipsum Dolor</h4>
-                <p>
-                    Maecenas at justo fermentum, dignissim quam a, condimentum augue. Maecenas sed turpis id nisi mollis ornare sed sit amet massa. Praesent varius rutrum magna, eu interdum tortor commodo eu. Ut at elit sagittis, malesuada orci eget, dapibus sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum ac nunc ac velit interdum mollis. Donec id tortor vitae risus pharetra iaculis.
-                </p>
             </div>
         </div>
     </div>
@@ -279,35 +74,41 @@ require_once('_header.php');
     <div class="section-faq section-bg-color1">
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
-                <h3>Frequently Asked Questions</h3>
+                <h3>Questions for the Bride & Groom</h3>
+
                 <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3 questions inline-list-custom">
                     <li>
-                        <h4>Is this frequently asked question one lorem ipsum?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod elit consectetur, eleifend turpis in, volutpat tortor. In laoreet ipsum sem, at feugiat mauris placerat ac.</p>
-                    </li>
-                    <li>
-                        <h4>Is this frequently asked question two lorem ipsum?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod elit consectetur, eleifend turpis in, volutpat tortor. In laoreet ipsum sem, at feugiat mauris placerat ac.</p>
-                    </li>
-                    <li>
-                        <h4>Is this frequently asked question three lorem ipsum?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod elit consectetur, eleifend turpis in, volutpat tortor. In laoreet ipsum sem, at feugiat mauris placerat ac.</p>
-                    </li>
-                    <li>
-                        <h4>Is this frequently asked question four lorem ipsum?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod elit consectetur, eleifend turpis in, volutpat tortor. In laoreet ipsum sem, at feugiat mauris placerat ac.</p>
-                    </li>
-                    <li>
-                        <h4>Is this frequently asked question five lorem ipsum?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod elit consectetur, eleifend turpis in, volutpat tortor. In laoreet ipsum sem, at feugiat mauris placerat ac.</p>
-                    </li>
-                    <li>
-                        <h4>Is this frequently asked question six lorem ipsum?</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc euismod elit consectetur, eleifend turpis in, volutpat tortor. In laoreet ipsum sem, at feugiat mauris placerat ac.</p>
+                        <h4>What should I wear?</h4>
+                        <p>Keep it classy, but black-tie isn’t required. To give you an idea though, Leah & Jeff will be in semi-formal attire (evening gown & tuxedo).</p>
                     </li>
 
+                    <li>
+                        <h4>Where should I stay?</h4>
+                        <p>We’ve set up a block of rooms at the Hyatt Regency Cambridge. Please visit our <a href="https://aws.passkey.com/event/11236243/owner/371/home">custom booking page</a> <i class="fa fa-external-link"></i> to make a reservation.</p>
+                    </li>
+
+                    <li>
+                        <h4>How do we get to the wedding?</h4>
+                        <p>We’re providing buses from the hotel to the venue, that will leave from the hotel. Please indicate with your RSVP that you’d like to ride on the bus.</p>
+                    </li>
+
+                    <li>
+                        <h4>What about food?</h4>
+                        <p>We’ll be enjoying some delicious food, provided by <a href="http://meimeiboston.com/">Mei Mei</a> <i class="fa fa-external-link"></i>. We’ll have a variety of items, so there should be something for everyone.</p>
+                    </li>
+
+                    <li>
+                        <h4>Is this a dry wedding?</h4>
+                        <p><em>Certainly not.</em> We’re having <a href="http://www.hive-events.com/">Hive Events</a> <i class="fa fa-external-link"></i> provide us with liquid refreshments, and will have beer, wine, & a carefully curated menu of cocktails.</p>
+                    </li>
+
+                    <li>
+                        <h4>What else is there to do in Boston?</h4>
+                        <p>Lots! Museums, live music, good food, good drinks, sports events, beautiful parks. The City has a <a href="https://www.cityofboston.gov/visitors/thingstodo.asp">great list of things to do</a> <i class="fa fa-external-link"></i>, and <a href="http://www.tripadvisor.com/Attractions-g60745-Activities-Boston_Massachusetts.html">TripAdvisor’s list</a> <i class="fa fa-external-link"></i> isn’t too shabby either.</p>
+                    </li>
                 </ul>
-                <div class="section-btn"><a href="about.html" class="button round">Learn More About Us &rarr;</a></div>
+
+                <div class="section-btn"><a href="about.html" class="button round">Learn More About Us →</a></div>
             </div>
         </div>
     </div>
