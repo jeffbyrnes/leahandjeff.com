@@ -11,7 +11,7 @@
                     <a href="http://www.facebook.com/leah.burrows.7" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
 
                     <div class="footer-badge">
-                        <a href="/"><img src="img/footer-badge@2x.png" width="57" height="57" alt="Home" /></a>
+                        <a href="/"><img src="/img/footer-badge@2x.png" width="57" height="57" alt="Home" /></a>
                     </div>
                 </div>
             </div>
