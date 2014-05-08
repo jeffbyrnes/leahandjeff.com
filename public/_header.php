@@ -29,8 +29,9 @@
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <ul>
-                    <li><a href="/" class="current">Home</a></li>
-                    <li><a href="/about/">About Us</a></li>
+                    <?php $is_about_page = strpos($_SERVER['REQUEST_URI'], 'about') !== false; ?>
+                    <li><a href="/"<?php if (!$is_about_page) { echo ' class="current"'; } ?>>Home</a></li>
+                    <li><a href="/about/"<?php if ($is_about_page) { echo ' class="current"'; } ?>>About Us</a></li>
                 </ul>
             </div>
         </div>
