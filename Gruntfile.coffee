@@ -31,6 +31,7 @@ module.exports = (grunt) ->
         importPath: [
           "bower_components",
           "bower_components/foundation/scss",
+          "bower_components/font-awesome/scss",
           "scss"
         ]
 
