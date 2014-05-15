@@ -46,8 +46,7 @@ module.exports = (grunt) ->
           environment: "development"
           outputStyle: "expanded"
           debugInfo: true
-          # Doesn't work in current Compass alpha
-          # sourcemap: true
+          sourcemap: true
 
     uncss:
       dist:
