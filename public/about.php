@@ -30,8 +30,8 @@ require_once('_header.php');
 
                 <h4>Fun Facts About Us</h4>
                 <ul>
-                    <li>Jeff movd to Boston in 2002 to attend <a href="http://www.berklee.edu/">Berklee</a> <i class="fa fa-external-link"></i></li>
-                    <li>Leah moved to Boston in 2010 to pursue her Masters at <a href="http://www.bu.edu/">BU</a> <i class="fa fa-external-link"></i></li>
+                    <li>Jeff moved to Boston in 2002 to attend <a href="http://www.berklee.edu/">Berklee</a> <i class="fa fa-external-link"></i></li>
+                    <li>Leah moved to Boston in 2009 to pursue her Masters at <a href="http://www.bu.edu/">BU</a> <i class="fa fa-external-link"></i></li>
                     <li>Jeff still plays bass occasionally</li>
                     <li>Leah gardens, and uses her freshly grown herbs in her delicious homecooked meals</li>
                     <li>Both are big fans of whisk(e)y in all its forms</li>
