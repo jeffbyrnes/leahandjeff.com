@@ -49,6 +49,20 @@ module.exports = (grunt) ->
           # Doesn't work in current Compass alpha
           # sourcemap: true
 
+    uncss:
+      dist:
+        src: [
+          'public/_header.php'
+          'public/index.php'
+          'public/_footer.php'
+          'public/about.php'
+        ]
+
+        dest: 'public/css/willamette.css'
+
+        options:
+          report: 'min'
+
     # Watch files for changes
     watch:
       gruntfile:
@@ -68,5 +82,5 @@ module.exports = (grunt) ->
 
   # Default task.
   grunt.registerTask "default", ["compass:dev"]
-  grunt.registerTask "release", ["clean", "compass:prod"]
+  grunt.registerTask "release", ["clean", "compass:prod", "uncss"]
   grunt.util.linefeed = "\n"
