@@ -30,7 +30,7 @@ namespace :grunt do
           '-i',
           '-e',
           "s/willamette.css/willamette.#{fetch(:grunt_timestamp)}.css/",
-          '_header.php'
+          'public/_header.php'
         )
       end
     end
