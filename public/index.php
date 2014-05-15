@@ -51,16 +51,20 @@ require_once('_header.php');
         </div>
         <div class="row">
             <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><a href="http://www.heathceramics.com/giftregistry/view/index/id/2f1db3338004759bbf51ff8d078a55ce/"><i class="fa fa-pagelines fa-lg fa-fw"></i> Heath Ceramics</a></h4>
-                    <p>All manner of lovely plates, cups, mugs, and other&nbsp;kitchenwares.</p>
-                </div>
+                <a href="http://www.heathceramics.com/giftregistry/view/index/id/2f1db3338004759bbf51ff8d078a55ce/">
+                    <div class="feature-box">
+                        <h4><i class="fa fa-pagelines fa-lg fa-fw"></i> Heath Ceramics</h4>
+                        <p>All manner of lovely plates, cups, mugs, and other&nbsp;kitchenwares.</p>
+                    </div>
+                </a>
             </div>
             <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><a href="http://www.amazon.com/registry/wedding/3URXQDPW28V0J"><i class="fa fa-laptop fa-lg fa-fw"></i> Amazon.com</a></h4>
-                    <p>Lots of fun home goods, from useful to purely&nbsp;entertaining.</p>
-                </div>
+                <a href="http://www.amazon.com/registry/wedding/3URXQDPW28V0J">
+                    <div class="feature-box">
+                        <h4><i class="fa fa-laptop fa-lg fa-fw"></i> Amazon.com</h4>
+                        <p>Lots of fun home goods, from useful to purely&nbsp;entertaining.</p>
+                    </div>
+                </a>
             </div>
             <div class="small-12 medium-4 large-4 columns">
                 <div class="feature-box">

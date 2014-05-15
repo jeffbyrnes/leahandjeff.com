@@ -470,6 +470,10 @@ a.no-underline:hover {
         padding-bottom: 0;
     }
 
+    a:hover & h4 {
+        color: $color-highlight;
+    }
+
     p,
     li {
         font-size: $p-small-font-size;
