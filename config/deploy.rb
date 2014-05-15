@@ -8,4 +8,4 @@ set :deploy_to, "/var/www/#{fetch(:application)}"
 
 server "#{fetch(:application)}", user: 'deploy', roles: %w(web app)
 
-after 'deploy:publishing', 'grunt:default'
+before 'deploy:finishing', 'grunt:default'
