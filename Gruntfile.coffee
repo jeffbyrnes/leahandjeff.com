@@ -12,7 +12,7 @@ module.exports = (grunt) ->
     version: "<%= pkg.version %>"
     name: "<%= pkg.name %>"
     publicDir: "public"
-    sourceStyleDir: "<%= publicDir %>/_scss"
+    sourceStyleDir: "scss"
     releaseStyleDir: "<%= publicDir %>/css"
 
     # Delete generated files
@@ -32,7 +32,7 @@ module.exports = (grunt) ->
           "bower_components",
           "bower_components/foundation/scss",
           "bower_components/font-awesome/scss",
-          "scss"
+          "<%= sourceStyleDir %>"
         ]
 
       prod:
@@ -56,7 +56,7 @@ module.exports = (grunt) ->
         tasks: ["coffeelint"]
 
       compass:
-        files: ["<%= sourceStyleDir %>/*.scss"]
+        files: ["<%= sourceStyleDir %>/**/*.scss"]
         tasks: ["compass:dev"]
 
       livereload:
