@@ -1,0 +1,37 @@
+namespace :grunt do
+  task default: :asset_rev
+
+  desc 'Build the app for release'
+  task :build do
+    run_locally do
+      execute :grunt, 'release'
+      set :grunt_timestamp, Time.new.strftime('%Y%m%d%H%M')
+    end
+  end
+
+  desc 'Upload the built assets'
+  task upload: :'grunt:build' do
+    on roles(:all) do
+      info "Uploading #{release_path}/public/css/willamette.css"
+      upload!(
+        './public/css/willamette.css',
+        "#{release_path}/public/css/willamette.#{fetch(:grunt_timestamp)}.css"
+      )
+    end
+  end
+
+  desc 'Rev the timestamp'
+  task asset_rev: :'grunt:upload' do
+    on roles(:all) do
+      within release_path do
+        execute(
+          :sed,
+          '-i',
+          '-e',
+          "s/willamette.css/willamette.#{fetch(:grunt_timestamp)}.css/",
+          '_header.php'
+        )
+      end
+    end
+  end
+end
