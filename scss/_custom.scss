@@ -1,6 +1,6 @@
-/*==================================================================================================
-Foundation Variables
-==================================================================================================*/
+// ==================================================================================================
+// Foundation Variables
+// ==================================================================================================
 @import "foundation/functions";
 $rem-base: 16px;
 
@@ -62,18 +62,18 @@ $include-open-sans: false;
 
 
 
-/*==================================================================================================
-Import
-==================================================================================================*/
+// ==================================================================================================
+// Import
+// ==================================================================================================
 @import "themes/type_02";
 @import "themes/color_07";
 @import "master/blog";
 
 
 
-/*==================================================================================================
-Global
-==================================================================================================*/
+// ==================================================================================================
+// Global
+// ==================================================================================================
 
 html {
     background-color: $body-bg !important;
@@ -81,22 +81,26 @@ html {
 
 a {
     @include transition-color;
-}
 
-p a, li a, h1 a {
-    @include transition-border;
-    border-bottom: 1px solid $color-link-underline;
-    padding-bottom: 1px;
-}
+    p &,
+    li &,
+    h1 & {
+        @include transition-border;
+        border-bottom: 1px solid $color-link-underline;
+        padding-bottom: 1px;
+    }
 
-p a:hover, li a:hover, h1 a:hover {
-    @include transition-color;
-    color: $color-highlight;
-    border-bottom: 1px solid $color-highlight;
-}
+    p &:hover,
+    li &:hover,
+    h1 &:hover {
+        @include transition-color;
+        color: $color-highlight;
+        border-bottom: 1px solid $color-highlight;
+    }
 
-a img:hover {
-    border: none;
+    img:hover {
+        border: none;
+    }
 }
 
 .button {
@@ -114,13 +118,14 @@ a.button {
     background-color: $color-section-button;
     padding-top: 1em !important;
     padding-bottom: 1em !important;
+
+    &:hover {
+        background-color: $color-section-button-hover;
+    }
 }
 
-a.button:hover {
-    background-color: $color-section-button-hover;
-}
-
-input.button, a.button {
+input.button,
+a.button {
     padding-left: 1.25em;
     padding-right: 1.25em;
 }
@@ -161,53 +166,62 @@ div hr {
 
 .row blockquote {
     border-left: 1px solid $hr-border-color;
+
+    p {
+        color: $body-font-color;
+        font-style: italic;
+
+        cite a {
+            color: $body-font-color;
+
+            &:hover {
+                color: $color-highlight;
+            }
+        }
+    }
+
+    & cite {
+        font-weight: bold;
+        font-style: normal;
+        color: $body-font-color;
+        font-size: 1em;
+        margin-top: 1em;
+    }
 }
 
-.row blockquote p {
-    color: $body-font-color;
-    font-style: italic;
-}
+div {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: bold;
+    }
 
-.row blockquote p cite a {
-    color: $body-font-color;
-}
+    div div {
+        h3 {
+            font-family: $body-header1-font-family;
+            font-weight: $body-header1-font-weight;
+            font-style: $body-header1-font-style;
+            font-size: $body-header1-font-size;
+            line-height: $body-header1-line-height;
+            letter-spacing: $body-header1-letter-spacing;
+            text-transform: $body-header1-text-transform;
+            margin-bottom: 0.625em;
+        }
 
-.row blockquote p cite a:hover {
-    color: $color-highlight;
-}
-
-.row blockquote cite {
-    font-weight: bold;
-    font-style: normal;
-    color: $body-font-color;
-    font-size: 1em;
-    margin-top: 1em;
-}
-
-div h1, div h2, div h3, div h4, div h5, div h6 {
-    font-weight: bold;
-}
-
-div div div h3 {
-    font-family: $body-header1-font-family;
-    font-weight: $body-header1-font-weight;
-    font-style: $body-header1-font-style;
-    font-size: $body-header1-font-size;
-    line-height: $body-header1-line-height;
-    letter-spacing: $body-header1-letter-spacing;
-    text-transform: $body-header1-text-transform;
-    margin-bottom: 0.625em;
-}
-
-div div div h4 {
-    font-family: $body-header2-font-family;
-    font-weight: $body-header2-font-weight;
-    font-style: $body-header2-font-style;
-    font-size: $body-header2-font-size;
-    line-height: $body-header2-line-height;
-    letter-spacing: $body-header2-letter-spacing;
-    text-transform: $body-header2-text-transform;
-    margin-bottom: 0.625em;
+        h4 {
+            font-family: $body-header2-font-family;
+            font-weight: $body-header2-font-weight;
+            font-style: $body-header2-font-style;
+            font-size: $body-header2-font-size;
+            line-height: $body-header2-line-height;
+            letter-spacing: $body-header2-letter-spacing;
+            text-transform: $body-header2-text-transform;
+            margin-bottom: 0.625em;
+        }
+    }
 }
 
 .caption {
@@ -217,41 +231,42 @@ div div div h4 {
 
 
 
-/*==================================================================================================
-Header & Nav
-==================================================================================================*/
+// ==================================================================================================
+// Header & Nav
+// ==================================================================================================
 
 header {
     background-color: $color-header-bg;
     padding-top: 3em;
     padding-bottom: 2.5em;
-}
 
-header div.logo {
-    text-align: center;
-}
+    div.logo {
+        text-align: center;
+    }
 
-header h2 {
-    font-family: $logo-font-family;
-    font-weight: $logo-font-weight;
-    font-style: $logo-font-style;
-    font-size: $logo-font-size-small;
-    line-height: $logo-line-height;
-    letter-spacing: $logo-letter-spacing;
-    text-transform: $logo-text-transform;
-    text-align: center;
-    color: $color-logo;
-}
+    h2 {
+        font-family: $logo-font-family;
+        font-weight: $logo-font-weight;
+        font-style: $logo-font-style;
+        font-size: $logo-font-size-small;
+        line-height: $logo-line-height;
+        letter-spacing: $logo-letter-spacing;
+        text-transform: $logo-text-transform;
+        text-align: center;
+        color: $color-logo;
 
-header h2 a {
-    text-decoration: none;
-    color: $color-logo;
-    padding: 0.5em;
-    border: 2px solid $color-logo-border;
-}
+        a {
+            text-decoration: none;
+            color: $color-logo;
+            padding: 0.5em;
+            border: 2px solid $color-logo-border;
 
-header h2 a:hover, header h2 a:focus {
-    color: $color-logo;
+            &:hover,
+            &:focus {
+                color: $color-logo;
+            }
+        }
+    }
 }
 
 nav {
@@ -259,51 +274,52 @@ nav {
     border-top: 1px solid $color-nav-border-top;
     border-bottom: 1px solid $color-nav-border-bottom;
     @include transition-background-color;
-}
 
-nav ul {
-    text-align: center;
-    padding-top: 0.6em;
-    margin-bottom: 0.4em;
-    margin-left: 0;
-}
+    ul {
+        text-align: center;
+        padding-top: 0.6em;
+        margin-bottom: 0.4em;
+        margin-left: 0;
 
-nav ul li {
-    font-family: $nav-font-family;
-    font-weight: $nav-font-weight;
-    font-style: $nav-font-style;
-    font-size: $nav-font-size;
-    line-height: $nav-line-height;
-    letter-spacing: $nav-letter-spacing;
-    text-transform: $nav-text-transform;
-    display: inline-block;
-    padding-left: 1em;
-    margin-right: 1em;
-    margin-left: 0;
-    padding-bottom: 0;
-}
+        li {
+            font-family: $nav-font-family;
+            font-weight: $nav-font-weight;
+            font-style: $nav-font-style;
+            font-size: $nav-font-size;
+            line-height: $nav-line-height;
+            letter-spacing: $nav-letter-spacing;
+            text-transform: $nav-text-transform;
+            display: inline-block;
+            padding-left: 1em;
+            margin-right: 1em;
+            margin-left: 0;
+            padding-bottom: 0;
 
-nav li a {
-    color: $color-nav !important;
-    @include transition-color;
-}
+            a,
+            a:hover {
+                border: none;
+            }
+        }
+    }
 
-nav li a:hover {
-    color: $color-nav-hover !important;
-}
+    li a {
+        color: $color-nav !important;
+        @include transition-color;
 
-nav ul li a, nav ul li a:hover {
-    border: none;
+        &:hover {
+            color: $color-nav-hover !important;
+        }
+    }
 }
 
 a.current {
     color: $color-nav-current !important;
     pointer-events: none;
     border-bottom: none;
-}
 
-a.current:hover {
-    color: $color-nav-current !important;
+    &:hover {
+        color: $color-nav-current !important;
+    }
 }
 
 p a {
@@ -311,20 +327,13 @@ p a {
 }
 
 
-/*==================================================================================================
-Body
-==================================================================================================*/
+// ==================================================================================================
+// Body
+// ==================================================================================================
 
 .first-row {
     padding-top: 4em;
     padding-bottom: 4em;
-}
-
-.section-headline {
-    background-color: $color-section-headline-bg !important;
-    padding-top: 3.5em;
-    padding-bottom: 0.75em;
-    @include transition-background-color;
 }
 
 .section-bg-color1 {
@@ -335,37 +344,44 @@ Body
     background-color: $color-section-bg-color2;
 }
 
-.section-headline h1 {
-    font-family: $headline-font-family;
-    font-weight: $headline-font-weight;
-    font-style: $headline-font-style;
-    font-size: $headline-font-size-small;
-    line-height: $headline-line-height;
-    letter-spacing: $headline-letter-spacing;
-    text-transform: $headline-text-transform;
-    text-align: center;
-    color: $color-headline;
-}
+.section-headline {
+    background-color: $color-section-headline-bg !important;
+    padding-top: 3.5em;
+    padding-bottom: 0.75em;
+    @include transition-background-color;
 
-.section-headline h1 a {
-    color: $color-headline;
-}
+    h1 {
+        font-family: $headline-font-family;
+        font-weight: $headline-font-weight;
+        font-style: $headline-font-style;
+        font-size: $headline-font-size-small;
+        line-height: $headline-line-height;
+        letter-spacing: $headline-letter-spacing;
+        text-transform: $headline-text-transform;
+        text-align: center;
+        color: $color-headline;
 
-.section-headline h1 a:hover {
-    color: $color-highlight;
-}
+        a {
+            color: $color-headline;
 
-.section-headline h2 {
-    font-family: $subheadline-font-family;
-    font-weight: $subheadline-font-weight;
-    font-style: $subheadline-font-style;
-    font-size: $subheadline-font-size;
-    line-height: $subheadline-line-height;
-    letter-spacing: $subheadline-letter-spacing;
-    text-transform: $subheadline-text-transform;
-    text-align: center;
-    color: $color-subheadline;
-    padding-bottom: 3em;
+            &:hover {
+                color: $color-highlight;
+            }
+        }
+    }
+
+    h2 {
+        font-family: $subheadline-font-family;
+        font-weight: $subheadline-font-weight;
+        font-style: $subheadline-font-style;
+        font-size: $subheadline-font-size;
+        line-height: $subheadline-line-height;
+        letter-spacing: $subheadline-letter-spacing;
+        text-transform: $subheadline-text-transform;
+        text-align: center;
+        color: $color-subheadline;
+        padding-bottom: 3em;
+    }
 }
 
 .section-hero {
@@ -375,7 +391,8 @@ Body
     @include transition-background-color;
 }
 
-a.no-underline, a.no-underline:hover {
+a.no-underline,
+a.no-underline:hover {
     border-bottom: none;
     text-decoration: none;
 }
@@ -384,15 +401,15 @@ a.no-underline, a.no-underline:hover {
     margin-top: -1em;
     margin-bottom: 1em;
     @include transition-background-color;
-}
 
-.templates h3 {
-    font-size: $templates-header-font-size !important;
-    margin-bottom: 0.25em;
-}
+    h3 {
+        font-size: $templates-header-font-size !important;
+        margin-bottom: 0.25em;
 
-.templates h3:nth-of-type(2) {
-    padding-top: 0.25em;
+        &:nth-of-type(2) {
+            padding-top: 0.25em;
+        }
+    }
 }
 
 .section-hero img {
@@ -405,39 +422,39 @@ a.no-underline, a.no-underline:hover {
     padding-bottom: 2em;
     border-top: 1px solid $color-section-border;
     @include transition-background-color;
-}
 
-.section-one-img h3 {
-    padding-bottom: 0.25em;
-}
+    h3 {
+        padding-bottom: 0.25em;
+    }
 
-.section-one-img p {
-    padding-top: 1.25em;
+    p {
+        padding-top: 1.25em;
+    }
 }
 
 .section-four-img {
     padding-top: 3em;
     padding-bottom: 3.5em;
     border-top: 1px solid $color-section-border;
-}
 
-.section-four-img div div ul li {
-    margin-bottom: 0;
-    padding-bottom: 1em;
-}
+    div div ul li {
+        margin-bottom: 0;
+        padding-bottom: 1em;
+    }
 
-.section-four-img p {
-    padding-top: 0;
+    p {
+        padding-top: 0;
+    }
 }
 
 .section-features {
     padding-top: 3em;
     padding-bottom: 3em;
     border-top: 1px solid $color-section-border;
-}
 
-.section-features h3 {
-    margin-bottom: 0;
+    h3 {
+        margin-bottom: 0;
+    }
 }
 
 .feature-box {
@@ -446,18 +463,19 @@ a.no-underline, a.no-underline:hover {
     padding-bottom: 1.25em;
     margin-top: 1em;
     margin-bottom: 2em;
-}
 
-div div div .feature-box h4 {
-    margin-top: 0.5em;
-    margin-bottom: 0.25em;
-    padding-bottom: 0;
-}
+    div div div & h4 {
+        margin-top: 0.5em;
+        margin-bottom: 0.25em;
+        padding-bottom: 0;
+    }
 
-.feature-box p, .feature-box li {
-    font-size: $p-small-font-size;
-    line-height: $p-small-line-height;
-    margin-bottom: 0.5em;
+    p,
+    li {
+        font-size: $p-small-font-size;
+        line-height: $p-small-line-height;
+        margin-bottom: 0.5em;
+    }
 }
 
 .section-steps {
@@ -506,22 +524,22 @@ div div div .feature-box h4 {
 
 .pricing {
     text-align: center;
-}
 
-div div div.pricing h4 {
-    margin-bottom: 1em;
-}
+    div div & h4 {
+        margin-bottom: 1em;
+    }
 
-.pricing ul {
-    list-style-type: none;
-    margin-left: 0;
-}
+    ul {
+        list-style-type: none;
+        margin-left: 0;
 
-.pricing ul li {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-    margin-bottom: 0.75em;
-    padding-bottom: 0.5em;
+        li {
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+            margin-bottom: 0.75em;
+            padding-bottom: 0.5em;
+        }
+    }
 }
 
 .pricing-footer {
@@ -548,23 +566,22 @@ div div div.pricing h4 {
 .section-btn {
     padding-top: 2em;
     text-align: center;
+
+    .button {
+        background-color: $color-section-button;
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+
+        &:hover {
+            background-color: $color-section-button-hover;
+        }
+    }
 }
 
-.section-btn .button {
-    background-color: $color-section-button;
-    padding-top: 1em !important;
-    padding-bottom: 1em !important;
-}
 
-.section-btn .button:hover {
-    background-color: $color-section-button-hover;
-}
-
-
-
-/*==================================================================================================
-Download Box
-==================================================================================================*/
+// ==================================================================================================
+// Download Box
+// ==================================================================================================
 
 .download-box {
     background-color: $color-download-box-bg;
@@ -572,88 +589,89 @@ Download Box
     padding-bottom: 1em;
     border-radius: 8px;
     @include transition-background-color;
+
+    .button {
+        background-color: $color-download-box-button;
+
+        &:hover,
+        &:focus {
+            background-color: $color-download-box-button-hover !important;
+            border: none;
+        }
+    }
+
+    h3,
+    p {
+        color: $color-download-box-text;
+    }
+
+    p.p-small {
+        margin-top: -0.5em;
+    }
+
+    .p-smaller {
+        margin-top: 1em;
+        border: 1px solid $color-download-box-border;
+        padding: 1em;
+    }
 }
 
-.download-box .button {
-    background-color: $color-download-box-button;
-}
 
-.download-box h3, .download-box p {
-    color: $color-download-box-text;
-}
-
-.download-box p.p-small {
-    margin-top: -0.5em;
-}
-
-.download-box .button:hover, .download-box .button:focus {
-    background-color: $color-download-box-button-hover !important;
-    border: none;
-}
-
-.download-box .p-smaller {
-    margin-top: 1em;
-    border: 1px solid $color-download-box-border;
-    padding: 1em;
-}
-
-
-
-/*==================================================================================================
-Footer
-==================================================================================================*/
+// ==================================================================================================
+// Footer
+// ==================================================================================================
 
 footer {
     padding-top: 6em;
     padding-bottom: 4em;
     border-top: 1px solid $color-section-border;
-}
 
-footer ul {
-    text-align: center;
-}
+    ul {
+        text-align: center;
+    }
 
-footer li {
-    font-family: $footer-font-family;
-    font-weight: $footer-font-weight;
-    font-style: $footer-font-style;
-    font-size: $footer-font-size;
-    line-height: $footer-line-height;
-    letter-spacing: $footer-letter-spacing;
-    text-transform: $footer-text-transform;
-    display: inline-block;
-    padding-left: 1em;
-    margin-right: 1em;
-    color: $color-footer-text;
-    margin-bottom: 1em;
-}
+    li {
+        font-family: $footer-font-family;
+        font-weight: $footer-font-weight;
+        font-style: $footer-font-style;
+        font-size: $footer-font-size;
+        line-height: $footer-line-height;
+        letter-spacing: $footer-letter-spacing;
+        text-transform: $footer-text-transform;
+        display: inline-block;
+        padding-left: 1em;
+        margin-right: 1em;
+        color: $color-footer-text;
+        margin-bottom: 1em;
 
-footer li a {
-    color: $color-footer-text;
-    @include transition-color;
-}
+        li a {
+            color: $color-footer-text;
+            @include transition-color;
+        }
+    }
 
-footer div.social-icons {
-    text-align: center;
-}
+    div.social-icons {
+        text-align: center;
 
-footer div.social-icons i {
-    padding-left: 0.25em;
-    padding-right: 0.25em;
-    color: $color-footer-text;
-    border: none !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
-    -webkit-box-shadow: none !important;
-}
+        i {
+            padding-left: 0.25em;
+            padding-right: 0.25em;
+            color: $color-footer-text;
+            border: none !important;
+            text-shadow: none !important;
+            box-shadow: none !important;
+            -webkit-box-shadow: none !important;
+        }
 
-footer div.social-icons a:hover i {
-    color: $color-highlight;
-    @include transition-color;
-}
+        a:hover i {
+            color: $color-highlight;
+            @include transition-color;
+        }
 
-footer div.social-icons a i {
-    @include transition-color;
+        a i {
+            @include transition-color;
+        }
+    }
 }
 
 .footer-badge {
@@ -663,12 +681,11 @@ footer div.social-icons a i {
 
 
 
-/*==================================================================================================
-Media Queries
-==================================================================================================*/
+// ==================================================================================================
+// Media Queries
+// ==================================================================================================
 
 @media #{$small} {
-
     header h2 {
         font-size: $logo-font-size;
     }
@@ -676,5 +693,4 @@ Media Queries
     .section-headline h1 {
         font-size: $headline-font-size;
     }
-
 }
