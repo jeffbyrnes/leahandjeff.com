@@ -18,9 +18,9 @@
         </div>
     </footer>
 
-    <!-- <script src="js/vendor/jquery.min.js"></script> -->
-    <script src="js/foundation.min.js"></script>
-    <script src="js/willamette.js"></script>
+    <!-- <script src="/js/vendor/jquery.min.js"></script> -->
+    <script src="/js/foundation.min.js"></script>
+    <script src="/js/willamette.js"></script>
 
     <?php
     if ($_SERVER['HTTP_HOST'] === 'local.leahandjeff.com') {
