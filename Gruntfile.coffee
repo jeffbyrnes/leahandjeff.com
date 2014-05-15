@@ -62,6 +62,11 @@ module.exports = (grunt) ->
         options:
           report: 'min'
 
+    cssmin:
+      release:
+        src: "<%= uncss.release.dest %>"
+        dest: "public/css/willamette.min.css"
+
     # Watch files for changes
     watch:
       gruntfile:
@@ -81,5 +86,5 @@ module.exports = (grunt) ->
 
   # Default task.
   grunt.registerTask "default", ["compass:dev"]
-  grunt.registerTask "release", ["clean", "compass:prod", "uncss"]
+  grunt.registerTask "release", ["clean", "compass:prod", "uncss", "cssmin"]
   grunt.util.linefeed = "\n"

@@ -16,7 +16,7 @@ namespace :grunt do
       execute :mkdir, "#{release_path}/public/css"
       upload!(
         './public/css/willamette.css',
-        "#{release_path}/public/css/willamette.#{fetch(:grunt_timestamp)}.css"
+        "#{release_path}/public/css/willamette.#{fetch(:grunt_timestamp)}.min.css"
       )
     end
   end
@@ -29,7 +29,7 @@ namespace :grunt do
           :sed,
           '-i',
           '-e',
-          "s/willamette.css/willamette.#{fetch(:grunt_timestamp)}.css/",
+          "s/willamette.css/willamette.#{fetch(:grunt_timestamp)}.min.css/",
           'public/_header.php'
         )
       end
