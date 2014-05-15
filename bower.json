@@ -1,0 +1,7 @@
+{
+  "name": "leah-and-jeff",
+  "private": "true",
+  "devDependencies": {
+    "foundation": "~5.2.2"
+  }
+}

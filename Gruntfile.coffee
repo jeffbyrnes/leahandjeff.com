@@ -30,8 +30,8 @@ module.exports = (grunt) ->
       options:
         importPath: [
           "bower_components",
-          "bower_components/normalize-scss",
-          "public/_themes/leahandjeff/sass"
+          "bower_components/foundation/scss",
+          "scss"
         ]
 
       prod:
