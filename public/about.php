@@ -6,38 +6,35 @@ require_once('_header.php');
     <div class=" section-bg-color1 ">
         <div class="row first-row">
             <div class="small-12 medium-6 large-6 columns">
-                <h3>Column One Header</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis massa vel interdum faucibus. Praesent elementum arcu nec est lacinia tincidunt. Fusce feugiat magna purus. Fusce diam metus, tincidunt eu velit eu, lacinia egestas lorem. Proin vehicula condimentum metus at luctus. Nunc eleifend gravida velit sit amet pharetra. Sed id justo a diam consequat dapibus eget nec magna. Suspendisse in lorem eget arcu tincidunt pharetra non eleifend felis. Sed consectetur dignissim mi non blandit.
-                </p>
-                <h4>Column One Subheader</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis massa vel interdum faucibus. Praesent elementum arcu nec est lacinia tincidunt. Fusce feugiat magna purus. Fusce diam metus, tincidunt eu velit eu, lacinia egestas lorem. Proin vehicula condimentum metus at luctus. Nunc eleifend gravida velit sit amet pharetra. Sed id justo a diam consequat dapibus eget nec magna. Suspendisse in lorem eget arcu tincidunt pharetra non eleifend felis. Sed consectetur dignissim mi non blandit.
-                </p>
-                <h4>Column One Subheader</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis massa vel interdum faucibus. Praesent elementum arcu nec est lacinia tincidunt. Fusce feugiat magna purus. Fusce diam metus, tincidunt eu velit eu, lacinia egestas lorem. Proin vehicula condimentum metus at luctus. Nunc eleifend gravida velit sit amet pharetra. Sed id justo a diam consequat dapibus eget nec magna. Suspendisse in lorem eget arcu tincidunt pharetra non eleifend felis. Sed consectetur dignissim mi non blandit.
-                </p>
+                <h3>How We Met</h3>
+
+                <p>Jeff and Leah met on a chilly night in February 2012. They didn’t know much about each other, having only seen a few pictures on the dating website, <a href="http://www.howaboutwe.com/">How About We</a> <i class="fa fa-external-link"></i>. But Leah thought Jeff had kind eyes and Jeff thought Leah had a great smile. They met at Brick and Mortar, a cocktail joint in Leah’s neighborhood. Jeff arrived early, grabbed two seats at the bar and ordered a whiskey cocktail, a sazerac, to calm his nerves.</p>
+
+                <p>Leah arrived a few minutes later and saddled up next to him.</p>
+
+                <p>“What are you drinking?” she asked. When Jeff replied, Leah couldn’t help but smile — sazeracs were her favorite cocktail.</p>
+
+                <p>Exactly two years later, Jeff and Leah went to their favorite bar, Citizen Public House, to celebrate their two-year anniversary. Jeff ordered two sazeracs and proposed. Of course, Leah said yes.</p>
+
+                <p>Jeff and Leah live in Cambridge, MA, where they continuously expand their home bar, and still enjoy the occasional sazerac.</p>
             </div>
+
             <div class="small-12 medium-6 large-6 columns">
-                <h3>Column Two Header</h3>
+                <h3>How To Make A Sazerac</h3>
 
                 <blockquote>
-                    <p>&#8220;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ante arcu, quis auctor sapien. Morbi magna leo, dapibus a pulvinar et, pharetra scelerisque felis. Mauris massa magna, gravida vitae convallis sagittis, sagittis ac ipsum. Integer arcu justo, vehicula vel accumsan ac, venenatis in massa. Curabitur in dui in urna interdum ullamcorper. Pellentesque ut imperdiet libero.&#8221;
-                    <cite>Carrie Brownstein</cite></p>
+                    <p>“Take a rocks glass, add a dash of absinthe, swirl to coat the glass, then discard. In a separate mixing glass, muddle 1 tablespoon sugar with a splash of soda water. Once dissolved, add two ounces of rye whiskey (preferably 100 proof), two dashes of Peychaud’s bitters, and ice. Stir well until cold. Strain rye & bitters mixture into rocks glass and garnish with a lemon peel.”
+                    <cite><a href="http://punchdrink.com/recipes/sazerac/"><em>PUNCH</em> Magazine</a> <i class="fa fa-external-link"></i></cite></p>
                 </blockquote>
 
-                <h4>Column Two Subheader</h4>
+
+                <h4>Fun Facts About Us</h4>
                 <ul>
-                    <li>Lorem ipsum dolor sit amet consectetur adipiscing elit</li>
-                    <li>Vestibulum venenatis velit dignissim arcu mattis rutrum lorem ipsum dolor sit amet consectetur adipiscing elit</li>
-                    <li>Nunc vel urna non odio aliquet posuere sit amet ac felis</li>
-                    <li>Sed pretium risus at diam dictum ullamcorper</li>
-                    <li>Praesent dictum lectus quis interdum luctus</li>
-                    <li>Duis semper augue eu justo sodales, sit amet dictum metus placerat</li>
-                    <li>Suspendisse ac quam nec nibh pulvinar gravida eget sit amet leo</li>
-                    <li>Mauris aliquet mauris quis sapien egestas, ac iaculis dolor pellentesque</li>
-                    <li>Ut varius dui aliquet tellus ultrices sodales nunc vel urna non odio aliquet posuere sit amet ac felis</li>
+                    <li>Jeff movd to Boston in 2002 to attend <a href="http://www.berklee.edu/">Berklee</a> <i class="fa fa-external-link"></i></li>
+                    <li>Leah moved to Boston in 2010 to pursue her Masters at <a href="http://www.bu.edu/">BU</a> <i class="fa fa-external-link"></i></li>
+                    <li>Jeff still plays bass occasionally</li>
+                    <li>Leah gardens, and uses her freshly grown herbs in her delicious homecooked meals</li>
+                    <li>Both are big fans of whisk(e)y in all its forms</li>
                 </ul>
             </div>
         </div>
