@@ -12,10 +12,10 @@ namespace :grunt do
   desc 'Upload the built assets'
   task upload: :'grunt:build' do
     on roles(:all) do
-      info "Uploading #{release_path}/public/css/willamette.css"
+      info "Uploading #{release_path}/public/css/willamette.min.css"
       execute :mkdir, "#{release_path}/public/css"
       upload!(
-        './public/css/willamette.css',
+        './public/css/willamette.min.css',
         "#{release_path}/public/css/willamette.#{fetch(:grunt_timestamp)}.min.css"
       )
     end
