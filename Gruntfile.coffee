@@ -49,7 +49,7 @@ module.exports = (grunt) ->
           sourcemap: true
 
     uncss:
-      dist:
+      release:
         src: [
           'public/_header.php'
           'public/index.php'
