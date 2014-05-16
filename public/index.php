@@ -93,7 +93,7 @@ require_once('_header.php');
 
                     <li>
                         <h4>How do we get to the wedding?</h4>
-                        <p>We’re providing buses from the hotel to the venue, that will leave from the hotel. Please indicate with your RSVP that you’d like to ride on the bus.</p>
+                        <p>We’re providing buses from the hotel to the venue. Please indicate with your RSVP that you’d like to ride on the bus.</p>
                     </li>
 
                     <li>
