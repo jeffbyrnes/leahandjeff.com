@@ -2,7 +2,7 @@
 lock '3.2.1'
 
 set :application, 'leahandjeff.com'
-set :repo_url, 'git@bitbucket.org:jeffbyrnes/jeffandleahswedding.com.git'
+set :repo_url, 'git@bitbucket.org:jeffbyrnes/leahandjeff.com.git'
 
 set :deploy_to, "/var/www/#{fetch(:application)}"
 
