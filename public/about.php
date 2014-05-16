@@ -14,7 +14,7 @@ require_once('_header.php');
 
                 <p>“What are you drinking?” she asked. When Jeff replied, Leah couldn’t help but smile — sazeracs were her favorite cocktail.</p>
 
-                <p>Exactly two years later, Jeff and Leah went to their favorite bar, Citizen Public House, to celebrate their two-year anniversary. Jeff ordered two sazeracs and proposed. Of course, Leah said yes.</p>
+                <p>Exactly two years later, Jeff and Leah went to their favorite bar, <a href="http://www.citizenpub.com/">Citizen Public House</a> <i class="fa fa-external-link"></i>, to celebrate their two-year anniversary. Jeff ordered two sazeracs and proposed. Of course, Leah said yes.</p>
 
                 <p>Jeff and Leah live in Cambridge, MA, where they continuously expand their home bar, and still enjoy the occasional sazerac.</p>
             </div>
