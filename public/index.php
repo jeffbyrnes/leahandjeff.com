@@ -67,10 +67,12 @@ require_once('_header.php');
                 </a>
             </div>
             <div class="small-12 medium-4 large-4 columns">
-                <div class="feature-box">
-                    <h4><i class="fa fa-rocket fa-lg fa-fw"></i> Honeyfund</h4>
-                    <p>Help us enjoy some extra fun on our&nbsp;honeymoon!</p>
-                </div>
+                <a href="/honeyfund/">
+                    <div class="feature-box">
+                        <h4><i class="fa fa-rocket fa-lg fa-fw"></i> Honeyfund</h4>
+                        <p>Help us enjoy some extra fun on our&nbsp;honeymoon!</p>
+                    </div>
+                </a>
             </div>
         </div>
     </div>

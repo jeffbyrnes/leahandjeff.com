@@ -28,9 +28,14 @@
         <div class="row">
             <div class="small-12 medium-12 large-12 columns">
                 <ul>
-                    <?php $is_about_page = strpos($_SERVER['REQUEST_URI'], 'about') !== false; ?>
-                    <li><a href="/"<?php if (!$is_about_page) { echo ' class="current"'; } ?>>Home</a></li>
+                    <?php
+                    $is_about_page = strpos($_SERVER['REQUEST_URI'], 'about') !== false;
+                    $is_honeyfund_page = strpos($_SERVER['REQUEST_URI'], 'honeyfund') !== false;
+                    $is_home_page = ($is_about_page === false && $is_honeyfund_page === false);
+                    ?>
+                    <li><a href="/"<?php if ($is_home_page) { echo ' class="current"'; } ?>>Home</a></li>
                     <li><a href="/about/"<?php if ($is_about_page) { echo ' class="current"'; } ?>>About Us</a></li>
+                    <li><a href="/honeyfund/"<?php if ($is_honeyfund_page) { echo ' class="current"'; } ?>>Honeyfund</a></li>
                 </ul>
             </div>
         </div>
