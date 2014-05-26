@@ -84,7 +84,10 @@ a {
 
     p &,
     li &,
-    h1 & {
+    h1 &,
+    h2 &,
+    h3 &,
+    h4 &, {
         @include transition-border;
         border-bottom: 1px solid $color-link-underline;
         padding-bottom: 1px;
@@ -92,7 +95,10 @@ a {
 
     p &:hover,
     li &:hover,
-    h1 &:hover {
+    h1 &:hover,
+    h2 &:hover,
+    h3 &:hover,
+    h4 &:hover, {
         @include transition-color;
         color: $color-highlight;
         border-bottom: 1px solid $color-highlight;
