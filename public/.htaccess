@@ -43,5 +43,5 @@
     RewriteRule (.*) %{REQUEST_URI}/ [R=301,L]
 
     # Pretty URLs for pages
-    RewriteRule ^(about|honeyfund)/?$ $1.php [QSA,NC,L]
+    RewriteRule ^(about)/?$ $1.php [QSA,NC,L]
 </IfModule>
