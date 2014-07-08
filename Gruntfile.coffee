@@ -12,7 +12,7 @@ module.exports = (grunt) ->
     version: "<%= pkg.version %>"
     name: "<%= pkg.name %>"
     publicDir: "public"
-    sourceStyleDir: "scss"
+    sourceStyleDir: "<%= publicDir %>/scss"
     releaseStyleDir: "<%= publicDir %>/css"
 
     # Delete generated files
