@@ -590,29 +590,29 @@ a.no-underline:hover {
 
 
 // ==================================================================================================
-// Download Box
+// RSVP
 // ==================================================================================================
 
-.download-box {
-    background-color: $color-download-box-bg;
+.rsvp-container {
+    background-color: $color-rsvp-bg;
     padding: 2em;
     padding-bottom: 1em;
     border-radius: 8px;
     @include transition-background-color;
 
     .button {
-        background-color: $color-download-box-button;
+        background-color: $color-rsvp-button;
 
         &:hover,
         &:focus {
-            background-color: $color-download-box-button-hover !important;
+            background-color: $color-rsvp-button-hover !important;
             border: none;
         }
     }
 
     h3,
     p {
-        color: $color-download-box-text;
+        color: $color-rsvp-text;
     }
 
     p.p-small {
@@ -621,7 +621,7 @@ a.no-underline:hover {
 
     .p-smaller {
         margin-top: 1em;
-        border: 1px solid $color-download-box-border;
+        border: 1px solid $color-rsvp-border;
         padding: 1em;
     }
 }

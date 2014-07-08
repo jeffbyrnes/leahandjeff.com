@@ -30,8 +30,8 @@ require_once('_header.php');
             </div>
 
             <div class="small-12 medium-6 large-6 columns">
-                <div class="download-box">
-                    <h3>RSVP </h3>
+                <div class="rsvp-container">
+                    <h3>RSVP</h3>
                     <iframe src="https://docs.google.com/forms/d/1Kn9ObfmGamx12Q1Gs3V8oYPgiaKefD61tmL3OXTRpNQ/viewform?embedded=true" width="452" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
 
                     <p class="p-smaller">

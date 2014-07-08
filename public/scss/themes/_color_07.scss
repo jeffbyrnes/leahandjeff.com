@@ -51,11 +51,11 @@ $color-section-border: tint($color-light, 35%);
 $color-headline: shade($color-dark, 0%);
 $color-subheadline: tint($color-dark, 10%);
 
-$color-download-box-bg: shade($color-dark, 30%);
-$color-download-box-text: tint($color-light, 90%);
-$color-download-box-button: $color-highlight;
-$color-download-box-button-hover: tint($color-dark, 30%);
-$color-download-box-border: tint($color-dark, 40%);
+$color-rsvp-bg: shade($color-dark, 30%);
+$color-rsvp-text: tint($color-light, 90%);
+$color-rsvp-button: $color-highlight;
+$color-rsvp-button-hover: tint($color-dark, 30%);
+$color-rsvp-border: tint($color-dark, 40%);
 
 $color-box-border: $color-dark-on-light-30;
 $color-feature-box-border: $color-dark-on-light-30;
