@@ -92,7 +92,15 @@ require_once('_header.php');
 
                     <li>
                         <h4>Where should I stay?</h4>
-                        <p>We’ve set up a block of rooms at the Hyatt Regency Cambridge. Please visit our <a href="https://aws.passkey.com/event/11236243/owner/371/home">custom booking page</a> <i class="fa fa-external-link"></i> to make a reservation.</p>
+                        <p>We’ve set up a block of rooms at the Hyatt Regency Cambridge. Please visit our <a href="https://aws.passkey.com/event/11236243/owner/371/home">custom booking page <i class="fa fa-external-link"></i></a> to make a reservation.</p>
+
+                        <p>We haven’t set aside a block elsewhere, but if you’d prefer to stay closer to the event, here are two hotels a short drive away:</p>
+
+                        <ul>
+                            <li><a href="http://www3.hilton.com/en/hotels/massachusetts/hilton-boston-dedham-DDHDHHF/index.html">Hilton Boston/Dedham <i class="fa fa-external-link"></i></a></li>
+
+                            <li><a href="http://homewoodsuites3.hilton.com/en/hotels/massachusetts/homewood-suites-by-hilton-boston-canton-ma-BOSCNHW/index.html">Homewood Suites by Hilton Boston/Canton <i class="fa fa-external-link"></i></a></li>
+                        </ul>
                     </li>
 
                     <li>
