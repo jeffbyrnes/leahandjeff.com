@@ -24,7 +24,7 @@ require_once('_header.php');
                     <p class="p-small"><time datetime="2014-10-11T17:30:00-04:00">October 11, 2014, at 5:30pm.</time></p>
 
                     <h3>3. What do I wear?</h3>
-                    <p>Be as fancy as you like, but black tie is not required.</p>
+                    <p>Be as fancy as you like, but black tie is not required. Ladies, bear in mind that this is an outdoor event, so stilettos might not be the best choice.</p>
                     <p>Leah & Jeff will be semi-formal, in a gown and tuxedo.</p>
                 </div>
             </div>
@@ -86,6 +86,8 @@ require_once('_header.php');
                     <li>
                         <h4>What should I wear?</h4>
                         <p>Keep it classy, but black-tie isn’t required. To give you an idea though, Leah & Jeff will be in semi-formal attire (evening gown & tuxedo).</p>
+
+                        <p>Again, ladies, grass + stilettos might not be a fun time, so be thoughful with your footwear.</p>
                     </li>
 
                     <li>
