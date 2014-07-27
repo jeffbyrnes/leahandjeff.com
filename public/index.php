@@ -110,17 +110,17 @@ require_once('_header.php');
 
                     <li>
                         <h4>What about food?</h4>
-                        <p>We’ll be enjoying some delicious food, provided by <a href="http://meimeiboston.com/">Mei Mei</a> <i class="fa fa-external-link"></i>. We’ll have a variety of items, so there should be something for everyone.</p>
+                        <p>We’ll be enjoying some delicious food, provided by <a href="http://meimeiboston.com/">Mei Mei <i class="fa fa-external-link"></i></a>. We’ll have a variety of items, so there should be something for everyone.</p>
                     </li>
 
                     <li>
                         <h4>Is this a dry wedding?</h4>
-                        <p><em>Certainly not.</em> We’re having <a href="http://www.hive-events.com/">Hive Events</a> <i class="fa fa-external-link"></i> provide us with liquid refreshments, and will have beer, wine, & a carefully curated menu of cocktails.</p>
+                        <p><em>Certainly not.</em> We’re having <a href="http://www.hive-events.com/">Hive Events <i class="fa fa-external-link"></i></a> provide us with liquid refreshments, and will have beer, wine, & a carefully curated menu of cocktails.</p>
                     </li>
 
                     <li>
                         <h4>What else is there to do in Boston?</h4>
-                        <p>Lots! Museums, live music, good food, good drinks, sports events, beautiful parks. The City has a <a href="https://www.cityofboston.gov/visitors/thingstodo.asp">great list of things to do</a> <i class="fa fa-external-link"></i>, and <a href="http://www.tripadvisor.com/Attractions-g60745-Activities-Boston_Massachusetts.html">TripAdvisor’s list</a> <i class="fa fa-external-link"></i> isn’t too shabby either.</p>
+                        <p>Lots! Museums, live music, good food, good drinks, sports events, beautiful parks. The City has a <a href="https://www.cityofboston.gov/visitors/thingstodo.asp">great list of things to do <i class="fa fa-external-link"></i></a>, and <a href="http://www.tripadvisor.com/Attractions-g60745-Activities-Boston_Massachusetts.html">TripAdvisor’s list <i class="fa fa-external-link"></i></a> isn’t too shabby either.</p>
                     </li>
                 </ul>
 
