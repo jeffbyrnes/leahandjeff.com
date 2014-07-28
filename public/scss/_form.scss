@@ -1,0 +1,18 @@
+.rsvp-form {
+    label {
+        color: $color-rsvp-text;
+
+        &[for] {
+            cursor: pointer;
+        }
+    }
+
+    .ss-required-asterisk {
+        color: $color-rsvp-button;
+    }
+
+    .ss-secondary-text {
+        font-size: small;
+        margin-top: -1rem;
+    }
+}
