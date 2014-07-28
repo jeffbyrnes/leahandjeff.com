@@ -18,6 +18,17 @@ namespace :grunt do
         './public/css/willamette.min.css',
         "#{release_path}/public/css/willamette.#{fetch(:grunt_timestamp)}.min.css"
       )
+
+      info "Uploading #{release_path}/public/js/leahandjeff.min.js"
+      execute :mkdir, "#{release_path}/public/js"
+      upload!(
+        './public/js/leahandjeff.min.js',
+        "#{release_path}/public/js/leahandjeff.#{fetch(:grunt_timestamp)}.min.js"
+      )
+      upload!(
+        './public/js/leahandjeff.min.js.map',
+        "#{release_path}/public/js/leahandjeff.min.js.map"
+      )
     end
   end
 
@@ -31,6 +42,14 @@ namespace :grunt do
           '-e',
           "s/willamette.css/willamette.#{fetch(:grunt_timestamp)}.min.css/",
           'public/_header.php'
+        )
+
+        execute(
+          :sed,
+          '-i',
+          '-e',
+          "s/leahandjeff.js/leahandjeff.#{fetch(:grunt_timestamp)}.min.js/",
+          'public/_footer.php'
         )
       end
     end

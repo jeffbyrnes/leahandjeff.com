@@ -53,7 +53,7 @@ module.exports = (grunt) ->
 
       dist:
         src: "<%= concat.dist.dest %>"
-        dest: "<%= releaseJSDir %>/<%= pkg.name %>.js"
+        dest: "<%= releaseJSDir %>/<%= pkg.name %>.min.js"
 
     # Compile Sass into CSS
     compass:
