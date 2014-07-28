@@ -9,7 +9,6 @@
 
     <link href="http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700italic,700|Roboto+Slab:400,100,300,700" rel="stylesheet">
     <link href="/css/willamette.css" rel="stylesheet">
-    <script src="/js/modernizr.custom.41649.min.js"></script>
 </head>
 <body>
 

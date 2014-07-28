@@ -14,9 +14,13 @@ module.exports = (grunt) ->
     publicDir: "public"
     sourceStyleDir: "<%= publicDir %>/scss"
     releaseStyleDir: "<%= publicDir %>/css"
+    releaseJSDir: "<%= publicDir %>/js"
 
     # Delete generated files
-    clean: ["<%= releaseStyleDir %>"]
+    clean: [
+      "<%= releaseStyleDir %>"
+      "<%= releaseJSDir %>"
+    ]
 
     # Lint Coffee using CoffeeLint
     coffeelint:
@@ -24,6 +28,32 @@ module.exports = (grunt) ->
         "max_line_length":
           "level": "ignore"
       gruntfile: ["Gruntfile.coffee"]
+
+    # Concatenate JS files
+    concat:
+      options:
+        stripBanners: true
+
+      dist:
+        src: [
+          "lib/js/modernizr.custom.js"
+          "bower_components/jquery/dist/jquery.js",
+          "bower_components/fastclick/lib/fastclick.js"
+          "bower_components/foundation/js/foundation/foundation.js"
+          "bower_components/foundation/js/foundation/foundation.abide.js"
+          "lib/js/willamette.js"
+        ]
+        dest: "<%= releaseJSDir %>/<%= pkg.name %>.js"
+
+    # Minify JS w/ Uglify.js
+    uglify:
+      options:
+        banner: "<%= banner %>"
+        sourceMap: true
+
+      dist:
+        src: "<%= concat.production.dest %>"
+        dest: "<%= releaseJSDir %>/<%= pkg.name %>.js"
 
     # Compile Sass into CSS
     compass:
@@ -77,14 +107,22 @@ module.exports = (grunt) ->
         files: ["<%= sourceStyleDir %>/**/*.scss"]
         tasks: ["compass:dev"]
 
+      concat:
+        files: ["lib/js/willamette.js"]
+        tasks: ["concat"]
+
       livereload:
         options:
           livereload: true
 
-        files: ["<%= releaseStyleDir %>/*.css", "<%= publicDir %>/**/*.php"]
+        files: [
+          "<%= releaseStyleDir %>/*.css"
+          "<%= releaseJSDir %>/*.js"
+          "<%= publicDir %>/**/*.php"
+        ]
 
 
   # Default task.
-  grunt.registerTask "default", ["compass:dev"]
-  grunt.registerTask "release", ["clean", "compass:prod", "uncss", "cssmin"]
+  grunt.registerTask "default", ["compass:dev", "concat"]
+  grunt.registerTask "release", ["clean", "compass:prod", "uncss", "cssmin", "concat", "uglify"]
   grunt.util.linefeed = "\n"
