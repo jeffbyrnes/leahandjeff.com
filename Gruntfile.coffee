@@ -52,7 +52,7 @@ module.exports = (grunt) ->
         sourceMap: true
 
       dist:
-        src: "<%= concat.production.dest %>"
+        src: "<%= concat.dist.dest %>"
         dest: "<%= releaseJSDir %>/<%= pkg.name %>.js"
 
     # Compile Sass into CSS
