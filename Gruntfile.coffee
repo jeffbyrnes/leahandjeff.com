@@ -80,22 +80,28 @@ module.exports = (grunt) ->
 
     uncss:
       release:
-        src: [
-          'public/_header.php'
-          'public/index.php'
-          'public/_footer.php'
-          'public/about.php'
-        ]
-
-        dest: 'public/css/willamette.css'
-
         options:
-          report: 'min'
+          report: "min"
+          ignore: [
+            /meta\..+/
+            /hover/
+            /active/
+            /focus/
+            /data-abide/
+            /error/
+          ]
+          stylesheets: ["css/willamette.css"]
+          urls: [
+            "http://local.leahandjeff.com/"
+            "http://local.leahandjeff.com/about/"
+          ]
+        files:
+          "<%= releaseStyleDir %>/willamette.css": ["**/*.php"]
 
     cssmin:
       release:
-        src: "<%= uncss.release.dest %>"
-        dest: "public/css/willamette.min.css"
+        src: "<%= releaseStyleDir %>/willamette.css"
+        dest: "<%= releaseStyleDir %>/willamette.min.css"
 
     # Watch files for changes
     watch:
