@@ -89,7 +89,7 @@
         <div class="large-12 columns">
             <label class="ss-q-item-label">
                 <p class="ss-q-title">
-                    Do you need a ride to the venue?
+                    Do you need a ride to the&nbsp;venue?
                     <span class="ss-required-asterisk">*</span>
                 </p>
 
@@ -100,7 +100,7 @@
 
             <input type="radio" name="entry.514371859" value="Yes, please!" id="group_514371859_1" class="ss-q-radio" required><label class="ss-choice-label" for="group_514371859_1">Yes, please!</label>
 
-            <input type="radio" name="entry.514371859" value="Nope!" id="group_514371859_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_514371859_2">Nope!</label>
+            <input type="radio" name="entry.514371859" value="Nope!" id="group_514371859_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_514371859_2">No</label>
 
             <small class="error">Don’t want to be without a seat!</small>
         </div>
