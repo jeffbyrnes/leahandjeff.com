@@ -1,12 +1,12 @@
 <form action="https://docs.google.com/forms/d/1Kn9ObfmGamx12Q1Gs3V8oYPgiaKefD61tmL3OXTRpNQ/formResponse" method="post" id="ss-form" class="rsvp-form" target="_blank" data-abide>
     <div class="row">
-        <div class="small-12 columns">
+        <div class="large-12 columns">
             <p class="ss-required-asterisk">* Required</p>
         </div>
     </div>
 
     <div class="row">
-        <div class="small-6 columns">
+        <div class="large-6 columns">
             <label class="ss-q-item-label" for="entry_157760306">
                 <p class="ss-q-title">
                     What’s your first name?
@@ -19,7 +19,7 @@
             <small class="error">We really need your name!</small>
         </div>
 
-        <div class="small-6 columns">
+        <div class="large-6 columns">
             <label class="ss-q-item-label" for="entry_1986718847">
                 <p class="ss-q-title">
                     What’s your last name?
@@ -34,7 +34,7 @@
     </div>
 
     <div class="row">
-        <div class="small-6 columns">
+        <div class="large-6 columns">
             <label class="ss-q-item-label">
                 <p class="ss-q-title">
                     Will you be attending?
@@ -49,7 +49,7 @@
             <small class="error">The crux of the whole matter.</small>
         </div>
 
-        <div class="small-6 columns">
+        <div class="large-6 columns">
             <label class="ss-q-item-label">
                 <p class="ss-q-title">
                     How many are you?
@@ -66,7 +66,7 @@
     </div>
 
     <div class="row">
-        <div class="small-6 columns">
+        <div class="large-6 columns">
             <label class="ss-q-item-label" for="entry_1574099387">
                 <p class="ss-q-title">
                     Your guest’s first name?
@@ -76,7 +76,7 @@
             </label>
         </div>
 
-        <div class="small-6 columns">
+        <div class="large-6 columns">
             <label class="ss-q-item-label" for="entry_1617403930">
                 <p class="ss-q-title">And their last name?</p>
 
@@ -86,7 +86,7 @@
     </div>
 
     <div class="row">
-        <div class="small-12 columns">
+        <div class="large-12 columns">
             <label class="ss-q-item-label">
                 <p class="ss-q-title">
                     Do you need a ride to the venue?
