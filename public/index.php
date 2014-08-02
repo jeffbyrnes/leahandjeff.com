@@ -95,7 +95,7 @@ require_once('_header.php');
                         <h4>Where should I stay?</h4>
                         <p>We’ve set up a block of rooms at the Hyatt Regency Cambridge. Please visit our <a href="https://aws.passkey.com/event/11236243/owner/371/home">custom booking page <i class="fa fa-external-link"></i></a> to make a reservation.</p>
 
-                        <p>We haven’t set aside a block elsewhere, but if you’d prefer to stay closer to the event, here are two hotels a short drive away:</p>
+                        <p>If you’d prefer to stay closer, here are two hotels we’ve contacted to get a group rate, please just call & refer to the Burrows/Byrnes wedding:</p>
 
                         <ul>
                             <li><a href="http://www3.hilton.com/en/hotels/massachusetts/hilton-boston-dedham-DDHDHHF/index.html">Hilton Boston/Dedham <i class="fa fa-external-link"></i></a></li>
