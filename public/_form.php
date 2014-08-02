@@ -34,7 +34,7 @@
     </div>
 
     <div class="row">
-        <div class="large-6 columns">
+        <div id="rsvp__attending" class="large-6 columns">
             <label class="ss-q-item-label">
                 <p class="ss-q-title">
                     Will you be attending?
@@ -49,7 +49,7 @@
             <small class="error">The crux of the whole matter.</small>
         </div>
 
-        <div class="large-6 columns">
+        <div id="rsvp__quantity" class="large-6 columns">
             <label class="ss-q-item-label">
                 <p class="ss-q-title">
                     How many are you?
