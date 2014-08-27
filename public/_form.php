@@ -44,7 +44,7 @@
 
             <input type="radio" name="entry.188795003" value="Yes!" id="group_188795003_1" class="ss-q-radio" required><label class="ss-choice-label" for="group_188795003_1">Yes!</label>
 
-            <input type="radio" name="entry.188795003" value="Sadly, no" id="group_188795003_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_188795003_2">Sadly, no</label>
+            <input type="radio" name="entry.188795003" value="Regretfully, no" id="group_188795003_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_188795003_2">Sadly, no</label>
 
             <small class="error">The crux of the whole matter.</small>
         </div>
