@@ -2,7 +2,7 @@
   "name": "leah-and-jeff",
   "private": "true",
   "devDependencies": {
-    "foundation": "~5.3",
+    "foundation": "~5.4",
     "font-awesome": "4.0.3"
   }
 }
