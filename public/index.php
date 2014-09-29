@@ -26,6 +26,11 @@ require_once('_header.php');
                     <h3>3. What do I wear?</h3>
                     <p>Be as fancy as you like, but black tie is not required. Ladies, bear in mind that this is an outdoor event, so stilettos might not be the best choice.</p>
                     <p>Leah & Jeff will be semi-formal, in a gown and tuxedo.</p>
+
+                    <h3>4. How do I get there?</h3>
+                    <p>As the form to the right suggests, we’ll be providing buses.</p>
+                    <p>They will leave the Hyatt Regency at <strong>4:45pm</strong>, so don‘t be late!</p>
+                    <p>The buses will return everyone to the Hyatt after we’ve danced ourselves silly.</p>
                 </div>
             </div>
 
@@ -107,6 +112,8 @@ require_once('_header.php');
                     <li>
                         <h4>How do we get to the wedding?</h4>
                         <p>We’re providing buses from the hotel to the venue. Please indicate with your RSVP that you’d like to ride on the bus.</p>
+                        <p>They will leave the Hyatt Regency at <em>4:45pm</em>, so don‘t be late!</p>
+                        <p>The buses will return everyone to the Hyatt after we’ve danced ourselves silly.</p>
                     </li>
 
                     <li>
