@@ -123,7 +123,7 @@ require_once('_header.php');
 
                     <li>
                         <h4>Is this a dry wedding?</h4>
-                        <p><em>Certainly not.</em> We’re having <a href="http://www.hive-events.com/">Hive Events <i class="fa fa-external-link"></i></a> provide us with liquid refreshments, and will have beer, wine, & a carefully curated menu of cocktails.</p>
+                        <p><em>Certainly not.</em> We’re having <a href="http://www.hive-events.com/">Hive Events <i class="fa fa-external-link"></i></a> and <a href="http://www.getoffsite.com/">OFFSITE <i class="fa fa-external-link"></i></a> provide us with liquid refreshments, and will have beer, wine, & a carefully curated menu of cocktails.</p>
                     </li>
 
                     <li>
