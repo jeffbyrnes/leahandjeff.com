@@ -3,8 +3,12 @@
         color: $color-rsvp-text;
 
         &[for] {
-            cursor: pointer;
+            cursor: not-allowed;
         }
+    }
+
+    input:disabled {
+        cursor: not-allowed;
     }
 
     .ss-required-asterisk {

@@ -6,7 +6,7 @@ require_once('_header.php');
     <div class="section-headline">
         <div class="row">
             <div class="small-12 medium-12 large-12 large-centered columns">
-                <h1>Leah & Jeff Are Getting Married!</h1>
+                <h1>Leah & Jeff Are <s>Getting</s> Married!</h1>
                 <h2>October 11, 2014 @ Prowse Farm, Canton, MA</h2>
             </div>
         </div>
@@ -39,10 +39,6 @@ require_once('_header.php');
                     <h3>RSVP</h3>
 
                     <?php include_once('_form.php'); ?>
-
-                    <p class="p-smaller">
-                        If you’re attending, please be sure to indicate how many are in your party.
-                    </p>
                 </div>
             </div>
         </div>

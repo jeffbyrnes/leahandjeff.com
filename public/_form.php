@@ -13,7 +13,7 @@
                     <span class="ss-required-asterisk">*</span>
                 </p>
 
-                <input type="text" name="entry.157760306" class="ss-q-short" id="entry_157760306" required>
+                <input type="text" name="entry.157760306" class="ss-q-short" id="entry_157760306" required disabled>
             </label>
 
             <small class="error">We really need your name!</small>
@@ -26,7 +26,7 @@
                     <span class="ss-required-asterisk">*</span>
                 </p>
 
-                <input type="text" name="entry.1986718847" class="ss-q-short" id="entry_1986718847" required>
+                <input type="text" name="entry.1986718847" class="ss-q-short" id="entry_1986718847" required disabled>
             </label>
 
             <small class="error">No seriously, what’s your name?</small>
@@ -42,9 +42,9 @@
                 </p>
             </label>
 
-            <input type="radio" name="entry.188795003" value="Yes!" id="group_188795003_1" class="ss-q-radio" required><label class="ss-choice-label" for="group_188795003_1">Yes!</label>
+            <input type="radio" name="entry.188795003" value="Yes!" id="group_188795003_1" class="ss-q-radio" required disabled><label class="ss-choice-label" for="group_188795003_1">Yes!</label>
 
-            <input type="radio" name="entry.188795003" value="Regretfully, no" id="group_188795003_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_188795003_2">Sadly, no</label>
+            <input type="radio" name="entry.188795003" value="Regretfully, no" id="group_188795003_2" class="ss-q-radio" required disabled><label class="ss-choice-label" for="group_188795003_2">Sadly, no</label>
 
             <small class="error">The crux of the whole matter.</small>
         </div>
@@ -57,9 +57,9 @@
                 </p>
             </label>
 
-            <input type="radio" name="entry.1984382982" value="1" id="group_1984382982_1" class="ss-q-radio" required><label class="ss-choice-label" for="group_1984382982_1">1</label>
+            <input type="radio" name="entry.1984382982" value="1" id="group_1984382982_1" class="ss-q-radio" required disabled><label class="ss-choice-label" for="group_1984382982_1">1</label>
 
-            <input type="radio" name="entry.1984382982" value="2" id="group_1984382982_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_1984382982_2">2</label>
+            <input type="radio" name="entry.1984382982" value="2" id="group_1984382982_2" class="ss-q-radio" required disabled><label class="ss-choice-label" for="group_1984382982_2">2</label>
 
             <small class="error">This way, we order enough drinks.</small>
         </div>
@@ -72,7 +72,7 @@
                     Your guest’s first name?
                 </p>
 
-                <input type="text" name="entry.1574099387" class="ss-q-short" id="entry_1574099387">
+                <input type="text" name="entry.1574099387" class="ss-q-short" id="entry_1574099387" disabled>
             </label>
         </div>
 
@@ -80,7 +80,7 @@
             <label class="ss-q-item-label" for="entry_1617403930">
                 <p class="ss-q-title">And their last name?</p>
 
-                <input type="text" name="entry.1617403930" class="ss-q-short" id="entry_1617403930">
+                <input type="text" name="entry.1617403930" class="ss-q-short" id="entry_1617403930" disabled>
             </label>
         </div>
     </div>
@@ -98,9 +98,9 @@
                 </p>
             </label>
 
-            <input type="radio" name="entry.514371859" value="Yes, please!" id="group_514371859_1" class="ss-q-radio" required><label class="ss-choice-label" for="group_514371859_1">Yes, please!</label>
+            <input type="radio" name="entry.514371859" value="Yes, please!" id="group_514371859_1" class="ss-q-radio" required disabled><label class="ss-choice-label" for="group_514371859_1">Yes, please!</label>
 
-            <input type="radio" name="entry.514371859" value="Nope!" id="group_514371859_2" class="ss-q-radio" required><label class="ss-choice-label" for="group_514371859_2">No</label>
+            <input type="radio" name="entry.514371859" value="Nope!" id="group_514371859_2" class="ss-q-radio" required disabled><label class="ss-choice-label" for="group_514371859_2">No</label>
 
             <small class="error">Don’t want to be without a seat!</small>
         </div>
@@ -110,5 +110,5 @@
     <input type="hidden" name="pageHistory" value="0">
     <input type="hidden" name="fbzx" value="-1506510851880577922">
 
-    <input type="submit" class="button round" id="ss-submit" name="submit" value="Submit">
+    <input type="submit" class="button round" id="ss-submit" name="submit" value="Submit" disabled>
 </form>
